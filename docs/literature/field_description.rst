@@ -1,30 +1,36 @@
-== Field Name ==
-description
-== DC Field ==
-<code>dc:description</code>
+.. _dc:description:
 
-== Usage ==
-''Mandatory when applicable''
+Description (MA)
+^^^^^^^^^^^^^^^^
 
-== Usage Instruction ==
-This element is used for a textual description of the content. When a resource consists of several separate physical object files, do not use dc:description to list the URLs of these files.
+DC Field
+~~~~~~~~
+``dc:description``
 
-== Do Not Confuse With ==
---
-== Since ==
+Usage
+~~~~~
+*Mandatory when applicable*
+
+Usage Instruction
+~~~~~~~~~~~~~~~~~
+This element is used for a textual description of the content. When a resource consists of several separate physical object files, do not use ``dc:description`` to list the URLs of these files.
+
+Since
+~~~~~
+
 DRIVER Guidelines v2
-== Examples ==
-<pre>
-<dc:description>
-  Foreword [by] Hazel Anderson; Introduction; The scientific heresy:
-  transformation of a society; Consciousness as causal reality [etc]
-</dc:description>
 
-<dc:description>
-  A number of problems in quantum state and system identification are
-  addressed.
-</dc:description>
-</pre>
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
 
-==Comments==
-<comments/>
+   <dc:description>
+     Foreword [by] Hazel Anderson; Introduction; The scientific heresy:
+     transformation of a society; Consciousness as causal reality [etc]
+   </dc:description>
+
+   <dc:description>
+     A number of problems in quantum state and system identification are
+     addressed.
+   </dc:description>

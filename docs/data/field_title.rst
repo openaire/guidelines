@@ -1,50 +1,36 @@
-==Title==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (in '''bold''' if different from DataCite)
-|-
-| 3 || Title|| M || -
-|-
-| 3.1 || titleType|| O || -
-|-
-|}
+.. _d:title:
 
-==Definition==
-===Title===
-'''Title''' is a name or title by which the resource is known
+3. Title (M)
+------------
+A name or title by which a resource is known (occurrences: 1-n).
 
-Title can be repeated and titleType is an optional specification of the title property.
+**Allowed values, examples, other constraints**
 
-'''Occurrences''': 1-n
+Free text.
 
-===titleType (attribute)===
-The type of Title.
+.. _d:titletype:
 
-'''Occurrences''': Optional
+3. titleType (O)
+~~~~~~~~~~~~~~~~
+The type of Title (occurrences: 0-1).
 
-==Allowed values (DataCite)==
-===Title===
-The format is open.
+**Allowed values, examples, other constraints**
 
-===titleType===
-''Controlled List''
-Allowed values:
+*Controlled List Values:*
+
 * Alternative Title
 * Subtitle
 * TranslatedTitle
 
-==OpenAIRE==
-There are no OpenAIRE requirements for this property.
+Example
+^^^^^^^
+.. code-block:: xml
+   :linenos:
 
-==XML example==
-<code>
- <titles>
-  <title>
-   National Institute for Environmental Studies and Center for Climate System Research Japan
-  </title>
-  <title titleType="Subtitle">A survey</title>
- </titles>
-</code>
-
-==Comments==
-<comments/>
+   <titles>
+    <title>
+     National Institute for Environmental Studies and Center
+     for Climate System Research Japan
+    </title>
+    <title titleType="Subtitle">A survey</title>
+   </titles>

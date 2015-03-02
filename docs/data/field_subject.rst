@@ -1,51 +1,44 @@
-==Subject==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (if different from DataCite)
-|-
-| 6 || Subject|| R || -
-|-
-| 6.1 || subjectScheme|| O || -
-|-
-| 6.2 || schemeURI|| O || -
-|-
-|}
+.. _d:subject:
 
-==Definition==
+6. Subject (R)
+--------------
+Subject, keyword, classification code, or key phrase describing the resource (occurrences: 0-n).
 
-===Subject===
-Subject, keyword, classification code, or key phrase describing the resource.
+**Allowed values, examples, other constraints**
 
-'''Occurrences''': 0-n
+Free text.
 
-===subjectScheme (attribute)===
-The subjectScheme used can be announced by its name or by a URL of the Subject scheme.
+.. _d:subjectscheme:
 
-'''Occurrences''': Optional
+6.1 subjectScheme (O)
+~~~~~~~~~~~~~~~~~~~~~
+The name of the subject scheme or classification code or authority if one is used (occurrences: 01).
 
-===schemeURI (attribute)===
-The URI of the subject identifier scheme.
+**Allowed values, examples, other constraints**
 
-'''Occurrences''': Optional
+Free text.
 
-==Allowed values (DataCite)==
+.. _d:subject_schemeuri:
 
-===Subject===
-The format is open.
+6.2 schemeURI (O)
+~~~~~~~~~~~~~~~~~
+The URI of the subject identifier scheme (occurrences: 0-1).
 
-===subjectScheme===
-The format is open.
+**Allowed values, examples, other constraints**
 
-==OpenAIRE==
-There are no OpenAIRE requirements for this property.
+Examples:
 
-==XML example==
-<code>
- <subjects>
-  <subject>Earth sciences and geology</subject>
-  <subject subjectScheme="DDC" schemeURI="http://dewey.info/">551 Geology, hydrology, meteorology</subject>
- </subjects>
-</code>
+* http://id.loc.gov/authorities/subjects
+* http://dewey.info/
 
-==Comments==
-<comments/>
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
+
+   <subjects>
+    <subject>Earth sciences and geology</subject>
+    <subject subjectScheme="DDC" schemeURI="http://dewey.info/">
+    551 Geology, hydrology, meteorology
+    </subject>
+   </subjects>

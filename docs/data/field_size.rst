@@ -1,34 +1,22 @@
-==Size==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (if different from DataCite)
-|-
-| 13 || Size|| O ||
-|-
-|}
+.. _d:size:
 
-==Definition==
+13. Size (O)
+^^^^^^^^^^^^
 
-Unstructured size information about the resource.
+Unstructured size information about the resource (occurrences: 0-n).
 
-'''Occurrences:''' 0-n
+**Allowed values, examples, other constraints**
 
-==Allowed values (DataCite)==
-
-The format is open.
+Free text.
 
 Examples: "15 pages", "6 MB"
 
-==OpenAIRE==
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
 
-There are no OpenAIRE requirements for this property.
-
-==XML example==
-
- <sizes>
-   <size>15 pages</size>
-   <size>6 MB</size>
- </sizes>
-
-==Comments==
-<comments/>
+   <sizes>
+     <size>15 pages</size>
+     <size>6 MB</size>
+   </sizes>

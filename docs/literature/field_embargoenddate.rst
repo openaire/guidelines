@@ -1,25 +1,35 @@
-== Field Name ==
-EmbargoEnd
+.. _dc:date_embargo:
 
-== DC Field ==
-<code>dc:date</code>
+Embargo End Date (MA)
+^^^^^^^^^^^^^^^^^^^^^
 
-== Usage ==
-''Mandatory when applicable''
+DC Field
+~~~~~~~~
+``dc:date``
 
-== Usage Instruction ==
-When [[Literature_Guidelines:_Metadata_Field_Access_Level|accessLevel]] is set to
-* <code>info:eu-repo/semantics/embargoedAccess</code>
+Usage
+~~~~~
+*Mandatory when applicable*
+
+Usage Instruction
+~~~~~~~~~~~~~~~~~
+When :ref:`dc:rights_accesslevel` is set to
+
+* ``info:eu-repo/semantics/embargoedAccess``
+
 the end date of the embargo period must be provided. The corresponding term is defined by
-* <code>info:eu-repo/date/embargoEnd/<YYYY-MM-DD></code>
-Encoding of this date should be in the form <code>YYYY-MM-DD</code> conforming to ISO 8601.
-== Do Not Confuse With ==
---
-== Since ==
+
+* ``info:eu-repo/date/embargoEnd/<YYYY-MM-DD>``
+
+Encoding of this date should be in the form ``YYYY-MM-DD`` conforming to ISO 8601.
+
+Since
+~~~~~
 OpenAIRE Guidelines v1
 
-== Examples ==
-<code><dc:date>info:eu-repo/date/embargoEnd/2015-12-31</dc:date></code>
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
 
-==Comments==
-<comments/>
+   <dc:date>info:eu-repo/date/embargoEnd/2015-12-31</dc:date>

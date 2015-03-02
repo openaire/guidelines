@@ -1,172 +1,135 @@
-==RelatedIdentifier==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (if different from DataCite)
-|-
-| 12 || RelatedIdentifier || MA || ''Mandatory when applicable'' property in OpenAIRE instead of recommended in DataCite.
+.. _d:relatedidentifier:
 
-Please refer to the section “Related publications and datasets information” below for specific details on how to link datasets and publications.
+12. RelatedIdentifier (MA)
+--------------------------
 
-|-
-| 12.1 || relatedIdentifierType || MA || -
-|-
-| 12.2 || relationType || MA || ''Controlled List''
-Allowed values (recommended ones, please refer to DataCite Metadata Schema v2.2 for a complete list)
+Identifiers of related resources. These must be globally unique identifiers (occurrences: 0-n).
 
-<u>IsCitedBy</u> (indicates that B includes A in a citation)
-Cites (indicates that A includes B in a citation)
-<u>IsSupplementTo</u> (indicates  that A is a supplement to B)
-<u>isSupplementedBy</u> (indicates that B is a supplement to A)
-<u>IsPartOf</u> (indicates A is a portion of B; may be used for elements of a series)
-HasPart</u> (indicates A includes the part B)
-<u>IsNewVersionOf</u> (indicates A is a new edition of B, where the new edition has been modified or updated)
-<u>IsPreviousVersionOf</u> (indicates A is a previous edition of B)
+**Allowed values, examples, other constraints**
 
-'''Note''': ''Cites'' and ''IsCitedBy'' is specifically for when a publication/dataset directly cites another publication/dataset in its references, whereas ''References'' and ''IsReferencedBy'' is for when a dataset/publication is used as a source of information without a direct citation.
-
-OpenAIRE encourages including minimum one of above listed relation types, but allows usage of all DataCite’s relation types.
-
-|-
-| 12.3 || relatedMetadataSchema || O || -
-|-
-| 12.4 || schemeURI || O || -
-|-
-| 12.5 || schemeType || O || -
-|-
-|}
-
-==Definition==
-
-===RelatedIdentifier===
-Identifiers of related resources.
-
-'''Occurrences''': 0-n
-
-===relatedIdentifierType (attribute) ===
-The type of the ''RelatedIdentifier''.
-
-'''Occurrences''': Required
-
-===relationType (attribute) ===
-
-Description of the relationship of the resource being registered (A) and the related resource (B).
-
-'''Occurrences''': Required
-
-===relatedMetadataScheme (attribute) ===
-
-The name of the scheme.
-
-'''Occurrences''': 0-1
-
-===schemeURI (attribute) ===
-
-The URI of the relatedMetadataScheme.
-
-'''Occurrences''': 0-1
-
-===schemeType (attribute) ===
-
-The type of the relatedMetadataScheme, linked with the schemeURI.
-
-'''Occurrences''': 0-1
-
-==Allowed values (DataCite)==
-
-===RelatedIdentifier===
-
-The format is open.
+Free text.
 
 Use this property to indicate subsets of properties, as appropriate.
 
-===relatedIdentifierType===
+.. note::
 
-'''Controlled List'''
-Allowed values:
-* ARK
-* DOI
-* EAN13
-* EISSN
-* Handle
-* ISBN
-* ISSN
-* ISTC
-* LISSN
-* LSID
-* PURL
-* UPC
-* URL
-* URN
+   *Mandatory when applicable* property in OpenAIRE instead of *recommended* in DataCite.
 
-===relationType ===
+   Please refer to :ref:`relations` for specific details on how to link datasets and publications.
 
-''Controlled List''
-Allowed values:
-* <u>IsCitedBy</u> (indicates that B includes A in a citation)
-* <u>Cites</u> (indicates that A includes B in a citation)
-* <u>IsSupplementTo</u> (indicates that A is a supplement to B)
-* <u>IsSupplementedBy</u> (indicates that B is a supplement to A)
-* <u>IsContinuedBy</u> (indicates A is continued by the work B)
-* <u>Continues</u>(indicates A is a continuation of the work B)
-* <u>IsNewVersionOf</u> (indicates A is a new edition of B, where the new edition has been modified or updated)
-* <u>IsPreviousVersionOf</u> (indicates A is a previous edition of B)
-* <u>IsPartOf</u> (indicates A is a portion of B;may be used for elements of a series)
-* <u>HasPart</u> (indicates A includes the part B)
-* <u>IsReferencedBy</u> (indicates A is used as a source of information by B)
-* <u>References</u>(indicates B is used as a source of information for A)
-* <u>IsDocumentedBy</u> (indicates B is documentation about/explaining A)
-* <u>Documents</u> (indicates A is documentation about/explaining B)
-* <u>isCompiledBy</u> (indicates B is used to compile or create A)
-* <u>Compiles</u>(indicates B is the result of a compile or creation event using A)
-* <u>IsVariantFormOf</u> (indicates A is a variant or different form of B, e.g. calculated or calibrated form or different packaging)
-* <u>IsOriginalFormOf</u> (indicates A is the original form of B)
+.. _d:relatedidentifiertype:
 
-===relatedMetadataScheme===
+12.1 relatedIdentifierType (M)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use only with this relation pair: (HasMetadata/IsMetadataFor)
+The type of the RelatedIdentifier (occurrences: 1).
 
-===schemeURI===
+**Allowed values, examples, other constraints**
 
-Use only with this relation pair: (HasMetadata/IsMetadataFor)
+If :ref:`d:relatedidentifier` is used, :ref:`d:relatedidentifiertype` is mandatory.
 
-===schemeType===
+*Controlled List Values:*
 
-Use only with this relation pair: (HasMetadata/IsMetadataFor)
+* ``ARK``
+* ``arXiv``
+* ``bibcode``
+* ``DOI``
+* ``EAN13``
+* ``EISSN``
+* ``Handle``
+* ``ISBN``
+* ``ISSN``
+* ``ISTC``
+* ``LISSN``
+* ``LSID``
+* ``PMID``
+* ``PURL``
+* ``UPC``
+* ``URL``
+* ``URN``
 
-Examples: XSD, DDT, Turtle
+.. _d:relationtype:
 
-==OpenAIRE==
+12.2 relationType (M)
+~~~~~~~~~~~~~~~~~~~~~~
 
-''Controlled List''
-Allowed values (recommended ones, please refer to DataCite Metadata Schema v2.2 for a complete list - see above)
+Description of the relationship of the resource being registered (A) and the related resource (B) (occurrences: 1).
 
-* <u>IsCitedBy</u> (indicates that B includes A in a citation)
-* <u>Cites</u> (indicates that A includes B in a citation)
-* <u>IsSupplementTo</u> (indicates that A is a supplement to B)
-* <u>IsSupplementedBy</u> (indicates that B is a supplement to A)
-* <u>IsPartOf</u> (indicates A is a portion of B; may be used for elements of a series)
-* <u>HasPart</u> (indicates A includes the part B)
-* <u>IsNewVersionOf</u> (indicates A is a new edition of B, where the new edition has been modified or updated)
-* <u>IsPreviousVersionOf</u> (indicates A is a previous edition of B)
+**Allowed values, examples, other constraints**
 
-'''Note''': ''Cites'' and ''IsCitedBy'' is specifically for when a publication/dataset directly cites another publication/dataset in its references, whereas ''References'' and ''IsReferencedBy'' is for when a dataset/publication is used as a source of information without a direct citation.
+If :ref:`d:relatedidentifier` is used, :ref:`d:relationtype` is mandatory.
 
-OpenAIRE encourages including minimum one of above listed relation types, but allows usage of all DataCite’s relation types.
+*Controlled List Values:*
 
-=== Related publications and datasets information ===
-OpenAIRE '''harvests all datasets''' from a data repository, but '''exposes only certain datasets''' in the OpenAIRE portal. See the section “OpenAIRE OAI Set” below for specific details of which datasets are exposed.
+* ``IsCitedBy`` (indicates that B includes A in a citation)
+* ``Cites`` (indicates that A includes B in a citation)
+* ``IsSupplementTo`` (indicates that A is a supplement to B)
+* ``IsSupplementedBy`` (indicates that B is a supplement to A)
+* ``IsContinuedBy`` (indicates A is continued by the work B)
+* ``Continues`` (indicates A is a continuation of the work B)
+* ``HasMetadata`` (indicates resource A has additional metadata B)
+* ``IsMetadataFor`` (indicates additional metadata A for a resource B)
+* ``IsNewVersionOf`` (indicates A is a new edition of B, where the new edition has been modified or updated)
+* ``IsPreviousVersionOf`` (indicates A is a previous edition of B)
+* ``IsPartOf`` (indicates A is a portion of B;may be used for elements of a series)
+* ``HasPart`` (indicates A includes the part B)
+* ``IsReferencedBy`` (indicates A is used as a source of information by B)
+* ``References`` (indicates B is used as a source of information for A)
+* ``IsDocumentedBy`` (indicates B is documentation about/explaining A)
+* ``Documents`` (indicates A is documentation about/explaining B)
+* ``isCompiledBy`` (indicates B is used to compile or create A)
+* ``Compiles`` (indicates B is the result of a compile or creation event using A)
+* ``IsVariantFormOf`` (indicates A is a variant or different form of B, e.g. calculated or calibrated form or different packaging)
+* ``IsOriginalFormOf`` (indicates A is the original form of B)
+* ``IsIdenticalTo`` (indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource)
+* ``IsReviewedBy`` (indicates that A is reviewed by B)
+* ``Reviews`` (indicates that A is a review of B)
+* ``IsDerivedFrom`` (indicates B is a source upon which A is based)
+* ``IsSourceOf`` (indicates A is a source upon which B is based)
 
-For example, datasets related to publication will be exposed in the OpenAIRE portal. The link between the dataset and publication may be explicit defined, as described in this section below, or automatically inferred by the OpenAIRE infrastructure. If the link is explicit defined, the dataset will be exposed in the OpenAIRE portal '''within 1-2 days after harvesting''' (a repository is harvested once a week on average). If the link is automatically inferred by the OpenAIRE infrastructure it may take '''up to a month after harvesting''' before the dataset is exposed in the OpenAIRE portal. It is thus mandatory when applicable to provide links to related publications and datasets when these links are available in the repository, and thereby ensure faster exposure of the dataset in the OpenAIRE portal.
+.. note::
 
-DataCite Metadata Schema allows linking publications and datasets by use of persistent identifiers to uniquely identify the resource being described (A) typically a dataset but not limited to that, and the related resource (B) in the case of OpenAIRE typically a publication or a dataset.
+   ``Cites`` and ``IsCitedBy`` is specifically for when a publication/dataset directly cites another publication/dataset in its references, whereas ``References`` and ``IsReferencedBy`` is for when a dataset/publication is used as a source of information without a direct citation.
 
-==XML example==
-<code>
- <relatedIdentifiers>
-  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCitedBy">10.1234/bar</relatedIdentifier>
-  <relatedIdentifier relatedIdentifierType="URN" relationType="Cites">http://testing.ts/testpub</relatedIdentifier>
- </relatedIdentifiers>
-</code>
+   OpenAIRE encourages including minimum one of above listed relation types, but allows usage of all DataCite’s relation types.
 
-==Comments==
-<comments />
+
+.. _d:relatedmetadatascheme:
+
+12.3 relatedMetadataScheme (O)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The name of the scheme (occurrences: 0-1).
+
+**Allowed values, examples, other constraints**
+
+Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+
+.. _d:relatedidentifier_schemuri:
+
+12.1 schemeURI (O)
+~~~~~~~~~~~~~~~~~~
+
+The URI of the relatedMetadataScheme (occurrences: 0-1).
+
+**Allowed values, examples, other constraints**
+
+Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+
+.. _d:relatedidentifier_schemeType:
+
+12.1 schemeType (O)
+~~~~~~~~~~~~~~~~~~~
+
+The type of the relatedMetadataScheme, linked with the schemeURI (occurrences: 0-1).
+
+**Allowed values, examples, other constraints**
+
+Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+
+Examples: ``XSD``, ``DDT``, ``Turtle``
+
+Example
+~~~~~~~
+
+.. include:: examples/relatedidentifier.rst

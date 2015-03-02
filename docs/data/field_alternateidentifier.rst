@@ -1,42 +1,32 @@
-==AlternateIdentifier==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (if different from DataCite)
-|-
-| 11 || AlternateIdentifier || O || -
-|-
-| 11.1 || alternateIdentifierType || O || -
-|-
-|}
+.. _d:alternateidentifier:
 
-==Definition==
-===AlternateIdentifier===
-An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue.
+11. AlternateIdentifier (O)
+---------------------------
 
-'''Occurrences''': 0-n
+An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers. AlternateIdentifier should be used for another identifier of the same instance (same location, same file) (occurrences: 0-n).
 
-===alternateIdentifierType (attribute) ===
-The type of the ''AlternateIdentifier''.
+**Allowed values, examples, other constraints**
 
-'''Occurrences''': Required
+.. _d:alternateidentifiertype:
 
-==Allowed values (DataCite)==
+11.1 alternateIdentifierType (O)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-===AlternateIdentifier===
-The format is open.
+The type of the AlternateIdentifier (occurrences: 1).
 
-===alternateIdentifierType===
-The format is open.
+**Allowed values, examples, other constraints**
 
-==OpenAIRE==
-There are no OpenAIRE requirements for this property.
+Free text.
 
-==XML example==
-<code>
- <alternateIdentifiers>
-  <alternateIdentifier alternateIdentifierType="ISBN">937-0-1234-56789-X</alternateIdentifier>
- </alternateIdentifiers>
-</code>
+If AlternateIdentifier is used, alternateIdentifierType is mandatory. For the above example, the alternateIdentifierType would be ``A local accession number``.
 
-==Comments==
-<comments />
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
+
+   <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="ISBN">
+        937-0-1234-56789-X
+    </alternateIdentifier>
+   </alternateIdentifiers>
