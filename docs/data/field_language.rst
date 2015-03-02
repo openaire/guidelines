@@ -1,28 +1,17 @@
-==Language==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (if different from DataCite)
-|-
-| 9 || Language|| R || -
-|-
-|}
+.. _d:language:
 
-==Definition==
-The primary language of the resource.
+9. Language (R)
+---------------
+The primary language of the resource (occurrences: 0-1).
 
-==Allowed values (DataCite)==
-''Controlled Vocabulary''
-Allowed values from:
-ISO639‐2/B, ISO639‐3
-Examples: eng, fre, ger
+**Allowed values, examples, other constraints**
 
-==OpenAIRE==
-There are no OpenAIRE requirements for this property.
+Allowed values are taken from IETF BCP 47, ISO 639‐1 language codes.
+Examples: ``en``, ``de``, ``fr``.
 
-==XML example==
-<code>
- <language>eng</language>
-</code>
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
 
-==Comments==
-<comments />
+   <language>eng</language>

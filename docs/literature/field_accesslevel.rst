@@ -1,22 +1,29 @@
-== Field Name ==
-Access Level
+.. _dc:rights_accesslevel:
 
-== DC Field ==
-<code>dc:rights</code>
+Access Level (M)
+^^^^^^^^^^^^^^^^
 
-== Usage ==
-''Mandatory''
+DC Field
+~~~~~~~~
+``dc:rights``
 
-== Usage Instruction ==
-Use terms from the info:eu-repo-Access-Terms vocabulary. The values are:
-* <code>info:eu-repo/semantics/closedAccess</code>
-* <code>info:eu-repo/semantics/embargoedAccess</code>
-* <code>info:eu-repo/semantics/restrictedAccess</code>
-* <code>info:eu-repo/semantics/openAccess</code>
-== Do Not Confuse With ==
---
-== Examples ==
-<code><dc:rights>info:eu-repo/semantics/openAccess</dc:rights></code>
+Usage
+~~~~~
+*Mandatory*
 
-==Comments==
-<comments/>
+Usage Instruction
+~~~~~~~~~~~~~~~~~
+
+Use terms from the ``info:eu-repo-Access-Terms vocabulary``. The values are:
+
+* ``info:eu-repo/semantics/closedAccess``
+* ``info:eu-repo/semantics/embargoedAccess``
+* ``info:eu-repo/semantics/restrictedAccess``
+* ``info:eu-repo/semantics/openAccess``
+
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
+
+   <dc:rights>info:eu-repo/semantics/openAccess</dc:rights></code>

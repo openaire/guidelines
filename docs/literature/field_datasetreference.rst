@@ -1,32 +1,37 @@
-== Field Name ==
-Referenced Dataset
+.. _dc:relation_datasetreference:
 
-== DC Field ==
-<code>dc:relation</code>
+Dataset Reference (R)
+^^^^^^^^^^^^^^^^^^^^^
 
-== Usage ==
-''Recommended''
+DC Field
+~~~~~~~~
+``dc:relation``
 
-== Usage Instruction ==
-Encodes links to research datasets connected with this publication. The syntax of info:eu-repo/semantics/dataset is: <code>info:eu-repo/semantics/dataset/<scheme>/<identifier></code> where <code><scheme></code> must be one of the following:
+Usage
+~~~~~
+*Recommended*
 
-* <code>ark</code> – Archival Resource Key
-* <code>doi</code> – Digital Object Identifier
-* <code>hdl</code> – Handle
-* <code>purl</code> – Persistent Uniform Resource Locator
-* <code>url</code> – Uniform Resource Locator
-* <code>urn</code> – Uniform Resource Name
-== Do Not Confuse With ==
---
-== Since ==
+Usage Instruction
+~~~~~~~~~~~~~~~~~
+
+Encodes links to research datasets connected with this publication. The syntax is: ``info:eu-repo/semantics/dataset/<scheme>/<identifier>`` where ``<scheme>`` must be one of the following:
+
+* ``ark`` – Archival Resource Key
+* ``doi`` – Digital Object Identifier
+* ``hdl`` – Handle
+* ``purl`` – Persistent Uniform Resource Locator
+* ``url`` – Uniform Resource Locator
+* ``urn`` – Uniform Resource Name
+
+Since
+~~~~~
 OpenAIRE Guidelines v3
 
-== Examples ==
-<pre>
-<dc:relation>
-  info:eu-repo/semantics/dataset/doi/10.1234/789.1
-</dc:relation>
-</pre>
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
 
-==Comments==
-<comments/>
+   <dc:relation>
+     info:eu-repo/semantics/dataset/doi/10.1234/789.1
+   </dc:relation>

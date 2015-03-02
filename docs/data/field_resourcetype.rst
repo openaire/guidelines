@@ -1,39 +1,36 @@
-==ResourceType==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (if different from DataCite)
-|-
-| 10 || ResourceType|| R || OpenAIRE strongly recommends use of ResourceType and the sub-property resourceTypeGeneral.
-|-
-| 10.1 || resourceTypeGeneral|| R || -
-|-
-|}
+.. _d:resourcetype:
 
-==Definition==
-===ResourceType===
-A description of the resource.
+10. ResourceType (R)
+--------------------
+A description of the resource (occurrences: 0-1).
 
-'''Occurrences''': 0-1
+**Allowed values, examples, other constraints**
 
-===resourceTypeGeneral (attribute) ===
-The general type of a resource.
+The format is open, but the preferred format is a single term of some detail so that a pair can be formed with the sub‐property.
 
-'''Occurrences''': Required
+Text formats can be free‐text OR terms from the `CASRAI Publications resource type list <http://dictionary.casrai.org/research‐personnel‐profile/contributions/outputs/publications>`_.
 
-==Allowed values (DataCite)==
-===ResourceType===
-The format is open, but the preferred format is a single term of some detail so that a pair can be formed with the attribute.
+Examples:
 
-Example: Image/Animation, where 'Image' is ''resourceTypeGeneral'' value and 'Animation'
-is ''ResourceType'' value.
+``Dataset/Census Data``, where ``Dataset`` is resourceTypeGeneral value and ``Census Data`` is ResourceType value.
+``Text/Conference Abstract``, where ``Text`` is ResourceTypeGeneral value and ``Conference Abstract`` is resourceType value aligned with CASRAI Publications term.
 
-===resourceTypeGeneral===
-''Controlled List''
-Allowed values:
+.. _d:resourcetypegeneral:
+
+10.1 resourceTypeGeneral (R)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The general type of a resource (occurrences: 1).
+
+**Allowed values, examples, other constraints**
+
+If ResourceType is used, resourceTypeGeneral is mandatory.
+
+*Controlled List Values:*
+
+* Audiovisual
 * Collection
 * Dataset
 * Event
-* Film
 * Image
 * InteractiveResource
 * Model
@@ -42,13 +39,14 @@ Allowed values:
 * Software
 * Sound
 * Text
+* Workflow
+* Other
 
-==OpenAIRE==
-There are no OpenAIRE requirements for this property.
+Combine “Text” with free‐text or terms from the CASRAI Publications resource type list found `here <http://dictionary.casrai.org/research‐personnel‐profile/contributions/outputs/publications>`_.
 
-==XML example==
-<code>
- <resourceType resourceTypeGeneral="Image">Animation</resourceType>
-</code>
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
 
-<comments/>
+   <resourceType resourceTypeGeneral="Image">Animation</resourceType>

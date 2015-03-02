@@ -1,28 +1,16 @@
-==Publisher==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (if different from DataCite)
-|-
-| 4 || Publisher|| M || -
-|}
+.. _d:publisher:
 
-==Definition==
-The name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role.
+4. Publisher (M)
+----------------
+The name of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role (occurrences: 1).
 
-'''Occurrences:''' 1
+**Allowed values, examples, other constraints**
 
-==Allowed values (DataCite)==
 Examples: World Data Center for Climate (WDCC); GeoForschungsZentrum Potsdam (GFZ); Geological Institute, University of Tokyo
 
-In the case of datasets, "publish" is understood to mean making the data available to the community of researchers
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
 
-==OpenAIRE==
-There are no OpenAIRE requirements for this property.
-
-==XML example==
-<code>
- <publisher>World Data Center for Climate (WDCC)</publisher>
-</code>
-
-==Comments==
-<comments/>
+   <publisher>World Data Center for Climate (WDCC)</publisher>

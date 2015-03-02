@@ -1,29 +1,22 @@
-==Version==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (if different from DataCite)
-|-
-| 15 || Version  || O ||
-|-
-|}
+.. _d:version:
 
-==Definition==
+15. Version (O)
+---------------
+The version number of the resource (occurrences: 0-1).
 
-The version number of the resource.
+**Allowed values, examples, other constraints**
 
-'''Occurrences:''' 0-1
+Suggested practice: track major_version.minor_version.
 
-==Allowed values (DataCite)==
+Register a new identifier for a major version change. Individual stewards need to determine which are major vs. minor versions (based on the work of the Earth Science Information Partners (ESIP). For more guidance, see `here <http://wiki.esipfed.org/index.php/Interagency_Data_Stewardship/Citations/provider_guidelines#Note_on_Versioning_and_Locators>`_.
 
-If the primary resource has changed, the version number increases. Register a new DOI (or primary identifier) when the version of the resource changes to enable the citation of the exact version of a research dataset (or other resource). May be used in conjunction with properties 11 and 12 ([[Data_Guidelines:_Metadata_Property_AlternateIdentifier|AlternateIdentifier]] and [[Data_Guidelines:_Metadata_Property_RelatedIdentifier|RelatedIdentifier]]) to indicate various information updates.
+May be used in conjunction with properties :ref:`d:alternateidentifier` and :ref:`d:relatedidentifier` to indicate various information updates.
 
-==OpenAIRE==
+May be used in conjunction with property :ref:`d:description` to indicate the nature and￼file/record range of version.
 
-There are no OpenAIRE requirements for this property.
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
 
-==XML example==
-
- <version>1.0</version>
-
-==Comments==
-<comments/>
+   <version>1.0</version>

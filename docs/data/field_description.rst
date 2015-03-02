@@ -1,60 +1,53 @@
-==Description==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (if different from DataCite)
-|-
-| 17 || Description || MA || ''Mandatory when applicable'' property in OpenAIRE instead of optional in DataCite.
-|-
-| 17.1 || descriptionType || MA || If 17. Description is used, then descriptionType is mandatory.
+.. _d:description:
 
-Use of "Abstract" is ''mandatory when applicable'' in OpenAIRE instead of recommended in DataCite.
+17. Description (MA)
+--------------------
+All additional information that does not fit in any of the other categories. May be used for technical information (occurrences: 0-n).
 
-Further descriptionType values may be specified. Please refer to DataCite Metadata Schema v3.0 for details.
-|-
-|}
-
-==Definition==
-
-===Description===
-
-All additional information that does not fit in any of the other categories.
-
-'''Occurrences:''' 0-n
-
-===descriptionType (attribute)===
-
-The type of the description.
-
-'''Occurrences:''' Required
-
-==Allowed values (DataCite)==
-
-===Description===
+**Allowed values, examples, other constraints**
 
 The format is open.
 
 It is a best practice to supply a description.
 
-===descriptionType===
+.. note::
 
-''Controlled List'' Allowed values:
+   *Mandatory when applicable* property in OpenAIRE instead of optional in DataCite.
+
+.. _d:descriptiontype:
+
+17.1 descriptionType (MA)
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The type of the Description. (occurrences: 1).
+
+**Allowed values, examples, other constraints**
+
+If Description is used, descriptionType is mandatory.
+
+*Controlled List Values:*
+
 * Abstract
+* Methods
 * SeriesInformation
 * TableOfContents
 * Other
 
-Use the type SeriesInformation when supplying the description of a resource that is part of a series.
+.. note::
 
-==OpenAIRE==
+   Use of "Abstract" is *mandatory when applicable* in OpenAIRE instead of *recommended* in DataCite.
 
-Mandatory when applicable property in OpenAIRE instead of optional in DataCite.
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
 
-==XML example==
 
- <descriptions>
-    <description descriptionType="Abstract">This is an abstract</description>
-    <description descriptionType="Other">This is e.g. a note.</description>
- </descriptions>
-
-==Comments==
-<comments/>
+   <descriptions>
+      <description descriptionType="Abstract">
+        This is an abstract
+      </description>
+      <description descriptionType="Other">
+        This is e.g. a note.
+      </description>
+   </descriptions>

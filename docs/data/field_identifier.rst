@@ -1,38 +1,27 @@
-==Identifier==
-{| class="wikitable"
-|-
-! ID !! DataCite-property !! Status !! Encoding schemes (in '''bold''' if different from DataCite)
-|-
-| 1 || Identifier || M || DOI (Digital Identifier) is preferred. The format should be "10.1234/foo".
-|-
-| 1.1 || IdentifierType || M || Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
-|-
-|}
+.. _d:identifier:
 
-==Definition==
+1. Identifier (M)
+-----------------
+The Identifier is a unique string that identifies a resource (occurrences: 1).
 
-===Identifier===
-The ''Identifier'' is a unique string that identifies a resource.
+**Allowed values, examples, other constraints**
 
-'''Occurrences''': 1
+Format should be “10.1234/foo”
 
-===identifierType (attribute)===
-The type of the Identifier.
+.. _d:identifiertype:
 
-'''Occurrences''': Required
+1.1 identifierType (M)
+~~~~~~~~~~~~~~~~~~~~~~
+The type of the Identifier (occurrences: 1).
 
-==Allowed values (DataCite)==
-''Controlled List''
-Allowed values:
+**Allowed values, examples, other constraints**
+
+*Controlled list values (DataCite)*
+
 * DOI
 
-NB! OpenAIRE allows for other types of identifiers, see below.
+*Controlled list values (OpenAIRE)*
 
-==OpenAIRE==
-Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
-
-''Controlled List''
-Allowed values:
 * ARK
 * DOI
 * Handle
@@ -40,10 +29,15 @@ Allowed values:
 * URN
 * URL
 
-==XML example==
-<code>
- <identifier identifierType="DOI">10.1594/WDCC/CCSRNIES_SRES_B2</identifier>
-</code>
+.. note::
+   Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
 
-==Comments==
-<comments/>
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
+
+   <identifier identifierType="DOI">
+    10.1594/WDCC/CCSRNIES_SRES_B2
+   </identifier>
+
