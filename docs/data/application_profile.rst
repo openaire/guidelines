@@ -12,7 +12,7 @@ The recommended status is made primarily to encourage users to input certain pro
 
 .. important::
 
-   The table below details only differences from the DataCite Metadata Schema |datacitever|. Please refer to the DataCite Metadata Schema |datacitever| for definition of properties and their encoding schemes: |datacitelink|
+   The table below details only differences from the DataCite Metadata Schema |datacitever|. Please refer to the DataCite Metadata Schema |datacitever| for definition of properties and their encoding schemes: |datacitelink|.
 
 
 .. csv-table::
