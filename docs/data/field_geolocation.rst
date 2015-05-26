@@ -18,7 +18,7 @@ A point location in space (occurrences: 0-1).
 
 **Allowed values, examples, other constraints**
 
-A point contains a single latitude‐longitude pair, separated by whitespace.
+A point contains a single latitude-longitude pair, separated by whitespace.
 
 See :ref:`d:geolocation_instructions`.
 
@@ -31,7 +31,7 @@ The spatial limits of a place (occurrences: 0-1).
 
 **Allowed values, examples, other constraints**
 
-A box contains two white space separated latitude‐longitude pairs, with each pair separated by whitespace. The first pair is the lower corner (normally south west), the second is the upper corner (normally north east).
+A box contains two white space separated latitude-longitude pairs, with each pair separated by whitespace. The first pair is the lower corner (normally south west), the second is the upper corner (normally north east).
 
 See :ref:`d:geolocation_instructions`.
 
@@ -50,7 +50,7 @@ Free text. Use to describe a geographic location.
 
 Detailed usage instructions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Use WGS 84 (World Geodetic System) coordinates. Use only decimal numbers for coordinates. Longitudes are ‐180 to 180 (0 is Greenwich, negative numbers are west, positive numbers are east), Latitudes are ‐90 to 90 (0 is the equator; negative numbers are south, positive numbers north).
+Use WGS 84 (World Geodetic System) coordinates. Use only decimal numbers for coordinates. Longitudes are -180 to 180 (0 is Greenwich, negative numbers are west, positive numbers are east), Latitudes are -90 to 90 (0 is the equator; negative numbers are south, positive numbers north).
 
 
 Example

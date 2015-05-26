@@ -8,7 +8,7 @@ The institution or person responsible for collecting, managing, distributing, or
 
 **Allowed values, examples, other constraints**
 
-Note: DataCite infrastructure supports up to between 8000‐ 10000 names. For name lists above that size, consider attribution via linking to the related metadata.
+Note: DataCite infrastructure supports up to between 8000 - 10000 names. For name lists above that size, consider attribution via linking to the related metadata.
 
 .. note::
 
@@ -65,7 +65,7 @@ If :ref:`d:contributor` is used, then :ref:`d:contributorname` is mandatory.
 
 Examples: Patel, Emily; Doe, John
 
-The personal name format may be: family, given. Non‐roman names should be transliterated according to the `ALA‐LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemes.
+The personal name format may be: family, given. Non-roman names should be transliterated according to the `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemes.
 
 .. note::
 
