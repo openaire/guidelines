@@ -2,9 +2,9 @@
 
 1. Publication (cfResPubl)
 --------------------------
+
 The CERIF entity cfResultPublication cfResPubl is used in the context of OpenAIRE to represent research results that are considered text publications. Metadata about scientific journals are also represented using the cfResPubl entity.
 
-# .. tabularcolumns:: |l|c|p{5cm}|
 
 Internal Identifier
 ^^^^^^^^^^^^^^^^^^^
