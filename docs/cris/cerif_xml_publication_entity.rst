@@ -1,10 +1,12 @@
 .. _c:publicationentity:
 
-1. Publication (cfResPubl)
---------------------------
+1. Publication Entity (cfResPubl)
+=================================
 
 The CERIF entity cfResultPublication cfResPubl is used in the context of OpenAIRE to represent research results that are considered text publications. Metadata about scientific journals are also represented using the cfResPubl entity.
 
+Attributes
+----------
 
 Internal Identifier
 ^^^^^^^^^^^^^^^^^^^
@@ -183,10 +185,98 @@ should be provided to applicable Creative Commons licenses, e.g.:
 
 In the case of embargoedAccess, the endDate of the classification specifies the embargo end date for the publication.
  
+Relationship(s) with
+--------------------
 
+Person
+^^^^^^
 
+(occurences: 0..N)
 
+*cfResPubl.cfPers_ResPubl*
 
+Applicable Vocabularies
+"""""""""""""""""""""""
+
+The range of allowed values is limited to the following controlled vocabulary:
+
+* Author 
+* Editor
+
+as defined in CERIF Semantics  “Person Output Contributions” scheme.
+
+Organisation
+^^^^^^^^^^^^
+
+(occurences: 0..N)
+
+*cfResPubl.cfOrgUnit_ResPubl*
+
+Applicable Vocabularies
+"""""""""""""""""""""""
+
+The range of allowed values is limited to the following controlled vocabulary:
+
+* Author Institution
+* Editor Institution
+* Publisher Institution
+
+as defined in CERIF Semantics  “Organisation Output Roles” scheme.
+
+Project 
+^^^^^^^
+
+(occurences: 0..N)
+
+*cfResPubl.cfProj_ResPubl*
+
+Applicable Vocabularies
+"""""""""""""""""""""""
+
+The range of allowed values is limited to the following controlled vocabulary:
+
+* Originator 
+
+as defined in CERIF Semantics  “Project Output Roles” scheme. I.e. Publication has originator Project.
+
+Product (Dataset)
+^^^^^^^^^^^^^^^^^
+
+(occurences: 0..N)
+
+*cfResPubl.cResPubl_ResProd*
+
+Applicable Vocabularies
+"""""""""""""""""""""""
+
+The range of allowed values is limited to the following controlled vocabulary: 
+
+* Reference 
+
+as defined in CERIF Semantics “Inter-Output Relations” scheme.
+
+Publication
+^^^^^^^^^^^
+
+(occurences: 0..1)
+
+.. hint:: 
+   one publication (document) can appear in at most one source (journal/book), if it did in two, it wouldn't be the same publication record
+
+*cfResPubl.cfResPubl_ResPubl*
+
+Applicable Vocabularies
+"""""""""""""""""""""""
+
+The range of allowed values is limited to the following controlled vocabulary: 
+
+* Part 
+
+as defined in CERIF Semantics “Inter-Publication Relations” scheme.
+
+.. note::
+
+   Articles can be related with the journal they appear in using the *cfResPubl_ResPubl* link entity with the “Part” classification term (*eda28bc1-34c5-11e1-b86c-0800200c9a66*) with a clear direction from the article *cfResPublId1* to the host journal *cfResPublId2*.
 
 
 

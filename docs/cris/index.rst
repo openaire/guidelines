@@ -15,3 +15,16 @@ OpenAIRE Guidelines for CRIS Managers based on CERIF-XML
    :maxdepth: 1
 
    cerif_xml_publication_entity
+   cerif_xml_person_entity
+   cerif_xml_organisation_entity
+   cerif_xml_project_entity
+   cerif_xml_funding_entity
+   cerif_xml_service_entity
+   cerif_xml_product_entity
+   cerif_xml_equipment_entity
+   cerif_xml_eaddress_entity
+
+.. toctree::
+   :maxdepth: 1
+
+   implementation
