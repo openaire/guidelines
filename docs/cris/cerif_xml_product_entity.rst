@@ -27,12 +27,12 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary, as in the OpenAIRE Guidelined for Data Archives - see https://guidelines.openaire.eu/wiki/OpenAIRE_Guidelines:_For_Data_Archives :
 
-* ARK
-* DOI
-* Handle
-* PURL 
-* URN 
-* URL 
+* **ARK**
+* **DOI**
+* **Handle**
+* **PURL**
+* **URN**
+* **URL**
 
 Name
 ^^^^
@@ -94,17 +94,17 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary (adopted from the OpenAIRE Guidelines for Data Archives):
 
-* Collection  
-* Dataset  
-* Event  
-* Image  
-* Interactive Resource  
-* Model 
-* Physical Object  
-* Service  
-* Software  
-* Sound  
-* Text
+* **Collection**
+* **Dataset**
+* **Event**
+* **Image**
+* **Interactive Resource**
+* **Model**
+* **Physical Object**
+* **Service**
+* **Software**
+* **Sound** 
+* **Text**
 
 Product Types (CERIF)
 ^^^^^^^^^^^^^^^^^^^^^
@@ -118,14 +118,14 @@ Applicable Vocabularies
 
 CERIF defines datasets at a more generic level and also comprises a range of product types:
 
-* Research Datasets and databases
-* Artefact
-* Devices and products
-* Composition
-* Design
-* Software
-* Website Content
-* Digital or visual media
+* **Research Datasets and databases**
+* **Artefact**
+* **Devices and products**
+* **Composition**
+* **Design**
+* **Software**
+* **Website Content**
+* **Digital or visual media**
 
 Relationship(s) with
 --------------------
@@ -142,8 +142,8 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Creator
-* Publisher
+* **Creator**
+* **Publisher**
 
 as defined in CERIF Semantics  “Person Output Contributions” scheme.
 
@@ -191,6 +191,7 @@ Applicable Vocabularies
 """""""""""""""""""""""
 
 The range of allowed values is limited to the following controlled vocabulary:
+
 * **Citation**
 * **Derivation**
 * **Supplement**

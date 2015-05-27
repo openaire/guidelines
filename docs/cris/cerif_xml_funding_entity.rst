@@ -27,7 +27,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Grant Reference
+* **Grant Reference**
 
 as defined in CERIF Semantics “Identifier Types” scheme.
 
@@ -64,11 +64,11 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Funding Programme
-* Call
-* Tender
-* Gift
-* Internal Funding
+* **Funding Programme**
+* **Call**
+* **Tender**
+* **Gift**
+* **Internal Funding**
 
 as defined in CERIF Semantics “Funding Source Types” scheme.
 
@@ -83,8 +83,10 @@ Applicable Vocabularies
 """""""""""""""""""""""
 
 The range of allowed values is limited to the following controlled vocabulary:
-- OA mandated 
-- OA not mandated
+
+* **OA mandated**
+* **OA not mandated**
+
 as defined in the “OpenAIRE Open Access Requirements” scheme.
 
 .. note::
@@ -105,14 +107,14 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Manager
-* Contributor
-* Contact
-* Applicant
-* Issuer
-* Responsible
-* Financier
-* Funder
+* **Manager**
+* **Contributor**
+* **Contact**
+* **Applicant**
+* **Issuer**
+* **Responsible**
+* **Financier**
+* **Funder**
 
 as defined in CERIF Semantics “Organisation Project Engagements” and “Organisation Funding Roles” schemes.
 
@@ -128,7 +130,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Part 
+* **Part**
 
 as defined in CERIF Semantics “Inter-Funding Relations” scheme.
 
@@ -144,9 +146,9 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Award
-* Grant
-* Contract 
+* **Award**
+* **Grant**
+* **Contract**
 
 as defined in CERIF Semantics “Activity Funding Types” scheme.
 

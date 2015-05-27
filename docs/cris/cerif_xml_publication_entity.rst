@@ -13,37 +13,35 @@ Internal Identifier
 
 (occurences: 1)
 
- *cfResPubl.ResPublId*
+*cfResPubl.ResPublId*
 
 Publication Date
 ^^^^^^^^^^^^^^^^
 
 (occurences: 0..1)
 
- *cfResPubl.ResPublDate*
+*cfResPubl.ResPublDate*
 
 Federated Identifiers
 ^^^^^^^^^^^^^^^^^^^^^
 
 (occurences: 0..N)
 
- *cfResPubl.cfFedId.cfFedId*
- (where the type of identifier is given through
- *cfResPubl.cfFedId.cfFedId_Class* )
+*cfResPubl.cfFedId.cfFedId* (where the type of identifier is given through *cfResPubl.cfFedId.cfFedId_Class*)
 
 Applicable Vocabularies
 """""""""""""""""""""""
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* DOI
-* Handle
-* PMCID
-* ISI-Number
-* SCP-Number
-* ISSN
-* ISBN
-* URL
+* **DOI**
+* **Handle**
+* **PMCID**
+* **ISI-Number**
+* **SCP-Number**
+* **ISSN**
+* **ISBN**
+* **URL**
 
 as defined in CERIF Semantics "Identifier Types" scheme.
 
@@ -52,29 +50,28 @@ Title
 
 (occurences: 1)
 
- *cfResPubl.cfTitle*
+*cfResPubl.cfTitle*
 
 Subtitle
 ^^^^^^^^
 
 (occurences: 0..1)
 
- *cfResPubl.cfSubTitle*
+*cfResPubl.cfSubTitle*
 
 Description
 ^^^^^^^^^^^
 
 (occurences: 1)
 
-  *cfResPubl.cfAbstr*
+*cfResPubl.cfAbstr*
 
 Subject
 ^^^^^^^
 
 (occurences: 0..N)
 
-  *cfResPubl.cfKeyw*
-  *cfResPubl.cfResPubl_Class*
+*cfResPubl.cfKeyw*; *cfResPubl.cfResPubl_Class*
 
 Applicable Vocabularies
 """""""""""""""""""""""
@@ -89,7 +86,7 @@ Languague
 
 (occurences: 1)
 
-  *cfResPubl.ResPubl_Class*
+*cfResPubl.ResPubl_Class*
 
 Applicable Vocabularies
 """""""""""""""""""""""
@@ -101,60 +98,60 @@ Publication Types
 
 (occurences: 1)
 
-  *cfResPubl.cfResPubl_Class*
+*cfResPubl.cfResPubl_Class*
 
 Applicable Vocabularies
 """""""""""""""""""""""
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Book
-* Book Review
-* Book Chapter Abstract
-* Book Chapter Review
-* Inbook
-* Anthology
-* Monograph
-* Referencebook
-* Textbook
-* Encyclopedia
-* Manual
-* Otherbook
-* Journal
-* Journal Article
-* Journal Article Abstract
-* Journal Article Review
-* Conference Proceedings
-* Conference Proceedings Article
-* Conference Abstract
-* Conference Poster
-* Letter
-* Letter to Editor
-* PhD Thesis
-* Doctoral Thesis
-* Supervised Student Publications
-* Report
-* Short Communication
-* Poster
-* Presentation
-* Newsclipping
-* Commentary
-* Annotation
-* Transliteration
-* Translation
-* Authored Book
-* Edited Book
-* Chapter in Book
-* Scholarly Edition
-* Conference Contribution
-* Working Paper
-* Research Report for external body
-* Confidential Report (for external body)
-* Encyclopedia Entry
-* Magazine Article
-* Dictionary Entry
-* Online Resource
-* Standard and Policy
+* **Book**
+* **Book Review**
+* **Book Chapter Abstract**
+* **Book Chapter Review**
+* **Inbook**
+* **Anthology**
+* **Monograph**
+* **Referencebook**
+* **Textbook**
+* **Encyclopedia**
+* **Manual**
+* **Otherbook**
+* **Journal**
+* **Journal Article**
+* **Journal Article Abstract**
+* **Journal Article Review**
+* **Conference Proceedings**
+* **Conference Proceedings Article**
+* **Conference Abstract**
+* **Conference Poster**
+* **Letter**
+* **Letter to Editor**
+* **PhD Thesis**
+* **Doctoral Thesis**
+* **Supervised Student Publications**
+* **Report**
+* **Short Communication**
+* **Poster**
+* **Presentation**
+* **Newsclipping**
+* **Commentary**
+* **Annotation**
+* **Transliteration**
+* **Translation**
+* **Authored Book**
+* **Edited Book**
+* **Chapter in Book**
+* **Scholarly Edition**
+* **Conference Contribution**
+* **Working Paper**
+* **Research Report for external body**
+* **Confidential Report (for external body)**
+* **Encyclopedia Entry**
+* **Magazine Article**
+* **Dictionary Entry**
+* **Online Resource**
+* **Standard and Policy**
 
   as defined in CERIF Semantics “Output Types” scheme.
 
@@ -170,10 +167,10 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* info:eu-repo/semantics/closedAccess
-* info:eu-repo/semantics/embargoedAccess
-* info:eu-repo/semantics/restrictedAccess
-* info:eu-repo/semantics/openAccess
+* ``info:eu-repo/semantics/closedAccess``
+* ``info:eu-repo/semantics/embargoedAccess``
+* ``info:eu-repo/semantics/restrictedAccess``
+* ``info:eu-repo/semantics/openAccess``
 
 as defined in the info:eu-repo Access Terms vocabulary 
 (http://purl.org/REP/standards/info-eu-repo#info-eu-repo-AccessRights).
@@ -200,8 +197,8 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Author 
-* Editor
+* **Author**
+* **Editor**
 
 as defined in CERIF Semantics  “Person Output Contributions” scheme.
 
@@ -217,9 +214,9 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Author Institution
-* Editor Institution
-* Publisher Institution
+* **Author Institution**
+* **Editor Institution**
+* **Publisher Institution**
 
 as defined in CERIF Semantics  “Organisation Output Roles” scheme.
 
@@ -235,7 +232,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Originator 
+* **Originator**
 
 as defined in CERIF Semantics  “Project Output Roles” scheme. I.e. Publication has originator Project.
 
@@ -251,7 +248,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary: 
 
-* Reference 
+* **Reference**
 
 as defined in CERIF Semantics “Inter-Output Relations” scheme.
 
@@ -270,7 +267,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary: 
 
-* Part 
+* **Part**
 
 as defined in CERIF Semantics “Inter-Publication Relations” scheme.
 

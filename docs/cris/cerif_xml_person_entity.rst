@@ -29,12 +29,12 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* ORCID
-* ResearcherID
-* ScopusAuthorID
-* STAFFID
-* DNR
-* ISNI
+* **ORCID**
+* **ResearcherID**
+* **ScopusAuthorID**
+* **STAFFID**
+* **DNR**
+* **ISNI**
 
 as defined in CERIF Semantics "Identifier Types" scheme.
 
@@ -50,9 +50,9 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Presented Name
-* Short Name
-* Passport Name
+* **Presented Name**
+* **Short Name**
+* **Passport Name**
 
 as defined in CERIF Semantics “Person Names” scheme.
 
@@ -68,9 +68,9 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Presented Name
-* Short Name
-* Passport Name
+* **Presented Name**
+* **Short Name**
+* **Passport Name**
 
 as defined in CERIF Semantics “Person Names” scheme.
 
@@ -101,9 +101,9 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Email
-* Fax
-* Phone 
+* **Email**
+* **Fax**
+* **Phone**
 
 as defined in CERIF Semantics “Person Contact Details” scheme.
 
@@ -119,8 +119,8 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Author 
-* Editor
+* **Author**
+* **Editor**
 
 as defined in CERIF Semantics “Person Output Contributions” scheme.
 
@@ -136,8 +136,8 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Creator
-* Publisher
+* **Creator**
+* **Publisher**
 
 as defined in CERIF Semantics “Person Output Contributions” scheme.
 
@@ -153,7 +153,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Organisation Contact In Project
+* **Organisation Contact In Project**
 
 as defined in the “OpenAIRE Person Organisation Project Relationships” scheme.
 
@@ -169,7 +169,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Affiliation 
+* **Affiliation**
 
 as defined in CERIF Semantics “Person Organisation Roles” scheme.
 

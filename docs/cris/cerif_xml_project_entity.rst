@@ -27,8 +27,8 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Project Reference
-* URL (project web site URL)
+* **Project Reference**
+* **URL (project web site URL)**
 
 as defined in CERIF Semantics “Identifier Types” scheme.
 
@@ -79,8 +79,8 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* OA mandated 
-* OA not mandated
+* **OA mandated**
+* **OA not mandated**
 
 as defined in the “OpenAIRE Open Access Requirements” scheme.
 
@@ -102,7 +102,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Originator 
+* **Originator**
 
 as defined in CERIF Semantics “Project Output Roles” scheme. i.e. Publication has originator Project.
 
@@ -118,7 +118,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Originator 
+* **Originator**
 
 as defined in CERIF Semantics “Project Output Roles” scheme. i.e. Dataset has originator Project.
 
@@ -134,12 +134,12 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Coordinator
-* Partner
-* Contractor
-* Funder
-* Inkind-Contributor
-* Applicant
+* **Coordinator**
+* **Partner**
+* **Contractor**
+* **Funder**
+* **Inkind-Contributor**
+* **Applicant**
 
 as defined in CERIF Semantics “Organisation Project Engagements” scheme.
 
@@ -155,7 +155,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Organisation Contact In Project
+* **Organisation Contact In Project**
 
 as defined in the “OpenAIRE Person Organisation Project Relationships” scheme.
 
@@ -171,9 +171,9 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Award
-* Grant
-* Contract 
+* **Award**
+* **Grant**
+* **Contract**
 
 as defined in CERIF Semantics “Activity Funding Types” scheme.
 

@@ -37,8 +37,8 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Email
-* Fax
-* Phone 
+* **Email**
+* **Fax**
+* **Phone**
 
 as defined in CERIF Semantics “Person Contact Details” scheme.

@@ -27,11 +27,11 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* PIC 
-* INSTID
-* UKPRN
-* URL (organisation web site URL)
-* VAT Identification Number
+* **PIC**
+* **INSTID**
+* **UKPRN**
+* **URL (organisation web site URL)**
+* **VAT Identification Number**
 
 as defined in CERIF Semantics “Identifier Types” scheme.
 
@@ -61,13 +61,13 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Higher Education
-* Private non-profit
-* Company
-* Government
-* SME
-* Intergovernmental
-* Research Institute
+* **Higher Education**
+* **Private non-profit**
+* **Company**
+* **Government**
+* **SME**
+* **Intergovernmental**
+* **Research Institute**
 
 as defined in CERIF Semantics “Organisation Types” scheme.
 
@@ -110,12 +110,12 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Coordinator
-* Partner
-* Contractor
-* Funder
-* Inkind-Contributor
-* Applicant
+* **Coordinator**
+* **Partner**
+* **Contractor**
+* **Funder**
+* **Inkind-Contributor**
+* **Applicant**
 
 as defined in CERIF Semantics “Organisation Project Engagements” scheme.
 
@@ -131,14 +131,14 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Manager
-* Contributor
-* Contact
-* Applicant
-* Issuer
-* Responsible
-* Financier
-* Funder
+* **Manager**
+* **Contributor**
+* **Contact**
+* **Applicant**
+* **Issuer**
+* **Responsible**
+* **Financier**
+* **Funder**
 
 as defined in CERIF Semantics “Organisation Project Engagements” and “Organisation Funding Roles” schemes.
 
@@ -154,7 +154,7 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Affiliation 
+* **Affiliation**
 
 as defined in CERIF Semantics “Person Organisation Roles” scheme.
 
@@ -170,9 +170,9 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Author Institution
-* Editor Institution
-* Publisher Institution
+* **Author Institution**
+* **Editor Institution**
+* **Publisher Institution**
 
 as defined in CERIF Semantics  “Organisation Output Roles” scheme.
 

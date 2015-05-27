@@ -66,6 +66,6 @@ Applicable Vocabularies
 
 The range of allowed values is limited to the following controlled vocabulary:
 
-* Generation
+* **Generation**
 
 as defined in CERIF Semantics “Infrastructure Output Relations” scheme.

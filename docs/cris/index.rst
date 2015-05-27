@@ -9,8 +9,6 @@ OpenAIRE Guidelines for CRIS Managers based on CERIF-XML
    introduction
    cris_elements_openaire
 
-**Application Profile:**
-
 .. toctree::
    :maxdepth: 1
 
