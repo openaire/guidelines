@@ -68,6 +68,7 @@ The range of allowed values is limited to the following controlled vocabulary:
 * SME
 * Intergovernmental
 * Research Institute
+
 as defined in CERIF Semantics “Organisation Types” scheme.
 
 NUTS code classification
