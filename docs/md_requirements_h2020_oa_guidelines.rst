@@ -37,7 +37,7 @@ Usage Instruction
 
 
 Property 'Embargo Period'
-------------------------
+-------------------------
 
 If the research outcome is published under an embargo please specify the embargo end date and the embargoed access mode.
 
