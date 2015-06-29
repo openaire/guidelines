@@ -5,7 +5,7 @@ OpenAIRE Guidelines
 Welcome to the OpenAIRE Guidelines. The intention of this is to provide a public space to share OpenAIREs work on interoperability and to engage with the community. This means you are invited to comment and change the content of this wiki. Please login as a 'Guest' at the log in/create account page.
 
 Compatibility with the EC-Horizon 2020 Open Access requirements
--------------------------------------
+---------------------------------------------------------------
 
 The European Commission has published `Guidelines on Open Access to Scientific Publications and Research Data <http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-pilot-guide_en.pdf>`_ (version 1.0, 11-Dec-2013).
 By following the :ref:`literature` it is ensured that specific requirements on bibliographic information about Open Access publications are met.
