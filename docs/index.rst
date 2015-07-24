@@ -12,7 +12,7 @@ By following the :ref:`literature` it is ensured that specific requirements on b
 
 These requirements are summarized here: :ref:`h2020`.
 
-OpenAIRE Guidelines for specific types of data sources 
+OpenAIRE Guidelines for specific types of data sources
 ------------------------------------------------------
 
 .. toctree::
@@ -25,7 +25,7 @@ OpenAIRE Guidelines for specific types of data sources
 
 OpenAIRE Validator
 ------------------
-The OpenAIRE Validator service http://validator.openaire.eu allows to test compatibility of data source providers with the OpenAIRE Guidelines. 
+The OpenAIRE Validator service http://validator.openaire.eu allows to test compatibility of data source providers with the OpenAIRE Guidelines.
 It provides rule sets that allow to test usage of the OAI-PMH implementation of the data source provider and syntax / semantics of metadata fields according to the OpenAIRE Guidelines.
 If validation succeeds the data source can be registered for regular aggregation and indexing in OpenAIRE.
 OpenAIRE allows for registration institutional and thematic repositories registered in OpenDOAR, research data repositories registered in re3data, individual e-Journals, CRIS, aggregators and publishers.
