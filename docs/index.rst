@@ -2,18 +2,12 @@
 OpenAIRE Guidelines
 ###################
 
-Welcome to the OpenAIRE Guidelines. The intention of this is to provide a public space to share OpenAIREs work on interoperability and to engage with the community. This means you are invited to comment and change the content of this wiki. Please login as a 'Guest' at the log in/create account page.
+.. image:: images/openaire.png
+   :align: right
 
-Compatibility with the EC-Horizon 2020 Open Access requirements
----------------------------------------------------------------
+Welcome to the OpenAIRE Guidelines. The intention of this is to provide a public space to share OpenAIREs work on interoperability and to engage with the community. The OpenAIRE Guidelines helps repository managers expose publications, datasets and CRIS metadata via the OAI-PMH protocol in order to integrate with OpenAIRE infrastructure.
 
-The European Commission has published `Guidelines on Open Access to Scientific Publications and Research Data <http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-pilot-guide_en.pdf>`_ (version 1.0, 11-Dec-2013).
-By following the :ref:`literature` it is ensured that specific requirements on bibliographic information about Open Access publications are met.
-
-These requirements are summarized here: :ref:`h2020`.
-
-OpenAIRE Guidelines for specific types of data sources
-------------------------------------------------------
+OpenAIRE Guidelines consists of three guidelines for publication repositories, data archives and CRIS systems respectively:
 
 .. toctree::
    :maxdepth: 1
@@ -22,18 +16,29 @@ OpenAIRE Guidelines for specific types of data sources
    data/index
    cris/index
 
+The guidelines specifically provide guidance on how to specify:
+
+- Access right
+- Funding information
+- Related publication and datasets.
+
+Participate
+-----------
+You are invited to participate by commenting or editing the content. See our guide for how to get started:
+
+.. toctree::
+   :maxdepth: 1
+
+   contributing
 
 OpenAIRE Validator
 ------------------
-The OpenAIRE Validator service http://validator.openaire.eu allows to test compatibility of data source providers with the OpenAIRE Guidelines.
-It provides rule sets that allow to test usage of the OAI-PMH implementation of the data source provider and syntax / semantics of metadata fields according to the OpenAIRE Guidelines.
+The OpenAIRE Validator service http://validator.openaire.eu allows to test your repository's compatibility with the OpenAIRE Guidelines.
+
 If validation succeeds the data source can be registered for regular aggregation and indexing in OpenAIRE.
-OpenAIRE allows for registration institutional and thematic repositories registered in OpenDOAR, research data repositories registered in re3data, individual e-Journals, CRIS, aggregators and publishers.
+OpenAIRE allows for registration of institutional and thematic repositories registered in OpenDOAR, research data repositories registered in re3data, individual e-Journals, CRIS, aggregators and publishers.
 
-.. Guidelines in practice
-   ----------------------
-   These pages are all open and intended for all stakeholders and data providers to add their experiences and best practices. OpenAIRE colleagues will also add their experiences when new types of data providers engage with OpenAIRE.
+Horizon 2020 Open Access Requirements
+-------------------------------------
 
-   - For literature repository managers
-   - For data archive managers
-   - For CRIS Managers
+The European Commission has published `Guidelines on Open Access to Scientific Publications and Research Data <http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-pilot-guide_en.pdf>`_ (version 1.0, 11-Dec-2013). By following the :ref:`literature` it is ensured that specific requirements on bibliographic information about Open Access publications are met. These requirements are summarized here: :ref:`h2020`.
