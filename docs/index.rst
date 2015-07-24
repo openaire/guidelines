@@ -41,4 +41,9 @@ OpenAIRE allows for registration of institutional and thematic repositories regi
 Horizon 2020 Open Access Requirements
 -------------------------------------
 
-The European Commission has published `Guidelines on Open Access to Scientific Publications and Research Data <http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-pilot-guide_en.pdf>`_ (version 1.0, 11-Dec-2013). By following the :ref:`literature` it is ensured that specific requirements on bibliographic information about Open Access publications are met. These requirements are summarized here: :ref:`h2020`.
+The European Commission has published `Guidelines on Open Access to Scientific Publications and Research Data <http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-pilot-guide_en.pdf>`_ (version 1.0, 11-Dec-2013). By following the :ref:`literature` it is ensured that specific requirements on bibliographic information about Open Access publications are met. These requirements are summarized here:
+
+.. toctree::
+   :maxdepth: 1
+
+   md_requirements_h2020_oa_guidelines
