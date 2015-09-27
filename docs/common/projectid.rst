@@ -14,9 +14,7 @@ where:
 * ``ProjectName`` contains the full name of the project
 * ``ProjectAcronym`` contains the project’s acronym.
 
-For OpenAIRE compatibility, the elements in square brackets are optional. Repositories may choose to use the old three-part namespace (``info:eu-repo/grantAgreement/Funder/FundingProgram/ProjectID``) as specified in previous versions of the Guidelines, or use the extended version with six parts, which is recommended.
-
-.. FIXME For OpenAIRE compatibility, the elements in square brackets are optional. Repositories may choose to use only the old three-part namespace (info:eu-repo/grantAgreement/Funder/FundingProgram/ProjectID), or use the extended version with six parts.
+For OpenAIRE compatibility, the elements in square brackets are optional. The three-part namespace is *mandatory when applicable* (``info:eu-repo/grantAgreement/Funder/FundingProgram/ProjectID``), while the six-parts namespace is *recommended*.
 
 When omitting fields in the extended version, the number of fields must be preserved by using ``/``. A correct example for omitting the the ``ProjectName`` field would therefore look like this: ``EC/FP7/12345/EU//OpenAIREplus``
 
