@@ -1,11 +1,9 @@
 .. code-block:: xml
    :linenos:
 
-   <contributors>
-    <contributor contributorType="DataManager">
-     <contributorName>PANGAEA</contributorName>
-    </contributor><contributor contributorType="ContactPerson">
-     <contributorName>Doe, John</contributorName>
-      <nameIdentifier nameIdentifierScheme="ORCID">xyz789</nameIdentifier>
+    <contributor contributorType="Funder">
+      <contributorName>European Commission</contributorName>
+        <nameIdentifier nameIdentifierScheme="info">
+          info:eu-repo/grantAgreement/EC/FP7/282896
+      </nameIdentifier>
     </contributor>
-   </contributors>

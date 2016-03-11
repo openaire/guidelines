@@ -8,7 +8,7 @@ The syntax is::
 where:
 
 * ``Funder`` refers to the funding organization (e.g., ``EC`` for European Commission, ``WT`` for Wellcome Trust)
-* ``FundingProgramme`` refers to a specific programme (e.g., ``FP7``)
+* ``FundingProgramme`` refers to a specific programme (e.g., ``FP7`` for Framework Programme Seven, ``H2020`` for Horizon 2020)
 * ``ProjectID`` refers to a unique identifier in the scope of the funder (and maybe the programme), e.g. a grant agreement number.
 * ``Jurisdiction`` refers to the authority granted to a formally constituted legal body (e.g. ``EU`` for European Union)
 * ``ProjectName`` contains the full name of the project

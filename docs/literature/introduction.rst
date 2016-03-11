@@ -3,6 +3,8 @@
 Introduction
 ------------
 
+Aim
+^^^
 The OpenAIRE Guidelines for Literature Repository Managers 3.0 provide
 orientation for repository managers to define and implement their local data
 management policies according to the requirements of the OpenAIRE - Open Access
