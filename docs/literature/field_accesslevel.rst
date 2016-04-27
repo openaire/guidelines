@@ -26,4 +26,4 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <dc:rights>info:eu-repo/semantics/openAccess</dc:rights></code>
+   <dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
