@@ -14,7 +14,7 @@ Usage
 Usage Instruction
 ~~~~~~~~~~~~~~~~~
 
-Use terms from the ``info:eu-repo-Access-Terms vocabulary``. The values are:
+Use terms from the `info:eu-repo-Access-Terms vocabulary <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_ . The values are:
 
 * ``info:eu-repo/semantics/closedAccess``
 * ``info:eu-repo/semantics/embargoedAccess``

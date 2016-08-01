@@ -11,7 +11,7 @@ Usage
 ~~~~~
 Publication type is used for the following purposes:
 
-* **Mandatory (M)**: Publication type (controlled): to indicate the type of publication based on the ``info:eu-repo-publication-type-terms`` vocabulary.
+* **Mandatory (M)**: Publication type (controlled): to indicate the type of publication based on the `info:eu-repo-publication-type-terms <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-Publicationtypes>`_ vocabulary.
 * **Optional (O)**: Publication type (free): to indicate the type of publication based on a local repository vocabulary.
 
 DCMI Definition
