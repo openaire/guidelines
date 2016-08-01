@@ -71,14 +71,14 @@ Versions
   * The OpenAIRE OAI set has been renamed from ``ec_fundedresources`` to ``openaire``.
   * New relation elements for indicating external identifiers, references and connections to datasets.
 
-* 2.0, October 2012
+* 2.0, October 2012 `doi:10.5281/zenodo.59208 <http://dx.doi.org/10.5281/zenodo.59208>`_
 
   * Compatibility for aggregators; extended Namespace for Project Identification
 
-* 1.1, November 2010
+* 1.1, November 2010 `doi:10.5281/zenodo.59206 <http://dx.doi.org/10.5281/zenodo.59206>`_
 
   * Correction of names and references; addition of license and version statement
 
-* 1.0, July 2010
+* 1.0, July 2010 `doi:10.5281/zenodo.59204 <http://dx.doi.org/10.5281/zenodo.59204>`_
 
   * Initial document
