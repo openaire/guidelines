@@ -114,6 +114,8 @@ DC Field
 Usage Instruction
 ~~~~~~~~~~~~~~~~~
 
+It is recommended to provide a URL which provides the location where the license can be read, e.g.:
+
 ``http://opendatacommons.org/licenses/by/1.0``
 
 Property 'Persistent Identifiers for Authors / Contributors'
