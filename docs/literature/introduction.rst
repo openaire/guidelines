@@ -64,6 +64,8 @@ Acknowledgements & Contributors
 
 Versions
 ^^^^^^^^
+* 4.0 draft, January 2017
+
 * 3.0, April 2013
 
 * 3.0, beta December 2012
