@@ -5,7 +5,7 @@ Introduction
 
 Aim
 ^^^
-The OpenAIRE Guidelines for Literature Repository Managers 3.0 provide
+The OpenAIRE Guidelines for Literature Repository Managers 4.0 provide
 orientation for repository managers to define and implement their local data
 management policies according to the requirements of the OpenAIRE - Open Access
 Infrastructure for Research in Europe.
@@ -29,14 +29,14 @@ discoverability and utilizing value-added services provided by the OpenAIRE port
 According to the ongoing expansion and anticipating the merger of the DRIVER
 Guidelines into the context of OpenAIRE Guidelines, detailed content from the
 DRIVER Guidelines 2.0 was adapted and added into this version of the Guidelines.
-The OpenAIRE Guidelines for Literature Repository Managers 3.0 are now only a
+The OpenAIRE Guidelines for Literature Repository Managers 4.0 are 
 part of a set of OpenAIRE Guidelines that also includes the OpenAIRE Guidelines
 for Data Archive Managers  and the OpenAIRE CERIF-XML profile.
 
 What's new
 ^^^^^^^^^^
-In comparison with previous versions of the Guidelines, this 3.0 version introduces
-three main changes:
+In comparison with previous versions of the Guidelines, this 4.0 version introduces
+the following major changes:
 
 * The OpenAIRE OAI set has been renamed from ``ec_fundedresources`` to ``openaire``.
 * New elements for indicating alternative identifiers, relations to other publications (references), and relations to research datasets have been defined.
