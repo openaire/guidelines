@@ -16,28 +16,28 @@ OpenAIRE Guidelines for Literature Repositories
 
 .. toctree::
    :maxdepth: 1
-   :numbered:
 
    field_title
    field_creator
+   field_contributor
    field_projectid
-   field_accesslevel
-   field_licensecondition
-   field_embargoenddate
    field_alternativeidentifier
    field_publicationreference
-   field_datasetreference
-   field_subject
-   field_description
+   field_date
+   field_language
    field_publisher
-   field_contributor
    field_publicationdate
    field_publicationtype
-   field_publicationversion
+   field_description
    field_format
    field_resourceidentifier
+   field_accesslevel
    field_source
-   field_language
+   field_subject
+   field_licensecondition
+   field_embargoenddate
+   field_datasetreference
+   field_publicationversion
    field_relation
    field_coverage
    field_audience

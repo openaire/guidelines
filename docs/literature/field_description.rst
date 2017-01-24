@@ -1,27 +1,18 @@
 .. _dc:description:
 
-Description (MA)
-^^^^^^^^^^^^^^^^
+12. Description (MA)
+====================
 
-DC Field
-~~~~~~~~
-``dc:description``
+**Usage Instruction**
 
-Usage
-~~~~~
-*Mandatory when applicable*
-
-Usage Instruction
-~~~~~~~~~~~~~~~~~
 This element is used for a textual description of the content. When a resource consists of several separate physical object files, do not use ``dc:description`` to list the URLs of these files.
 
-Since
-~~~~~
+**Since**
 
 DRIVER Guidelines v2
 
-Example
-~~~~~~~
+**Example**
+
 .. code-block:: xml
    :linenos:
 

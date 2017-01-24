@@ -1,42 +1,33 @@
 .. _dc:publisher:
 
-Publisher (MA)
-^^^^^^^^^^^^^^
+9. Publisher (MA)
+=================
 
-DC Field
-~~~~~~~~
-``dc:publisher``
+**DCMI Definition**
 
-Usage
-~~~~~
-*Mandatory when applicable*
-
-DCMI Definition
-~~~~~~~~~~~~~~~
 An entity responsible for making the resource available. Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.
 
-Usage Instruction
-~~~~~~~~~~~~~~~~~
+**Usage Instruction**
+
 The (commercial or non-commercial) publisher of the resource; not the (sub)institution the author is affiliated with. Publisher is used only in the bibliographic / functional sense, not an organisational one. Use only the full name of the given (commercial) publisher, not the name of an organization or institute that is otherwise [in a broader sense] associated with the creator.
 
 With university publications place the name of the faculty and/or research group or research school after the name of the university. In the case of organizations where there is clearly a hierarchy present, list the parts of the hierarchy from largest to smallest, separated by full stops. If it is not clear whether there is a hierarchy present, or unclear which is the larger or smaller portion of the body, give the name as it appears in the eprint.
 
 The use of publisher names from authority lists constructed according to local or national thesaurus files is optional.
 
-Do Not Confuse With
-~~~~~~~~~~~~~~~~~~~
-* :ref:`dc:contributor`
-* :ref:`dc:creator`
+**Do Not Confuse With**
+
+* :ref:`dci:contributor`
+* :ref:`dci:creator`
 
 In most cases the publisher and the creator are not the same.
 
-Since
-~~~~~
+**Since**
 
 DRIVER Guidelines v2
 
-Example
-~~~~~~~
+**Example**
+
 .. code-block:: xml
    :linenos:
 

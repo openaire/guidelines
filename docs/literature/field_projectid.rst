@@ -1,28 +1,41 @@
-.. _dc:relation_projectid:
+.. _dci:fundingReference:
 
-Project Identifier (MA)
-^^^^^^^^^^^^^^^^^^^^^^^
+4. FundingReference (MA)
+========================
 
-DC Field
-~~~~~~~~
-``dc:relation``
+4.1 funderName
+--------------
 
-Usage
-~~~~~
-*Mandatory when applicable*
+Name of the funding provider.
 
-Usage Instruction
-~~~~~~~~~~~~~~~~~
+4.2 funderIdentifier
+--------------------
+
+4.2.1 funderIdentifiertype
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+4.3 awardNumber
+---------------
+
+4.3.1 awardURI
+^^^^^^^^^^^^^^
+
+4.4 awardTitle
+--------------
+
+**Usage Instruction**
 
 .. include:: ../common/projectid.rst
 
-Since
-~~~~~
+**Since**
+
 OpenAIRE Guidelines v1
 
+**Modified**
 
-Example
-~~~~~~~
+OpenAIRE Guidelines v4
+
+**Example**
 
 An example utilizing all six fields:
 

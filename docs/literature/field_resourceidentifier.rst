@@ -1,23 +1,15 @@
 .. _dc:identifier:
 
-Resource Identifier (M)
-^^^^^^^^^^^^^^^^^^^^^^^
+14 Resource Identifier (M)
+==========================
 
-DC Field
-~~~~~~~~
-``dc:identifier``
 
-Usage
-~~~~~
-*Mandatory*
-
-DCMI Definition
-~~~~~~~~~~~~~~~
+**DCMI Definition**
 
 An unambiguous reference to the resource within a given context.
 
-Usage Instruction
-~~~~~~~~~~~~~~~~~
+**Usage Instruction**
+
 Recommended best practice is to identify the resource by means of a string or number conforming to a formal identification system. Example formal identification systems include the Uniform Resource Identifier (URI), the Uniform Resource Locator (URL), the Digital Object Identifier (DOI), and the ``URN:NBN``.
 
 The ideal use of this element is to use a direct link or a link to a jump-off page (persistent URL) from ``dc:identifier`` in the metadata record to the digital resource or a jump-off page.
@@ -31,17 +23,16 @@ Smart practice:
 
 * place the “most appropriate” identifier in the form of a URL at the top of the list of Identifiers. In almost all cases this is the one that will be used by a service provider to let an end-user refer to. This can be a link to a jump-off page or a direct link to the file. Also this can be a direct URL, or a redirection URL, like PURL, HANDLE or other international resolution mechanisms.
 
-Do Not Confuse With
-~~~~~~~~~~~~~~~~~~~
+**Do Not Confuse With**
+
 * :ref:`dc:relation` (Use ``dc:relation`` to refer from one version of the resource to another.)
 * :ref:`dc:source` (Use ``dc:source`` for bibliographic citation of the originating resource.)
 
-Since
-~~~~~
+**Since**
+
 DRIVER Guidelines v2
 
-Example
-~~~~~~~
+**Example**
 
 In this example the identifiers are sorted so that URLs are given first. The first URL will be considered as “most appropriate” and will be used in e.g. OpenAIRE to let an end-user redirect to. In this case the handle redirects to the jump-off page. A jump-off page is a good way to refer to. The end-user has the opportunity to see more information about the object(s) he has found, see the context and enjoy the other services a local repository has to offer:
 
