@@ -23,7 +23,7 @@ OpenAIRE Guidelines for Literature Repositories
    field_projectid
    field_alternativeidentifier
    field_publicationreference
-   field_date
+   field_embargoenddate
    field_language
    field_publisher
    field_publicationdate
@@ -35,7 +35,6 @@ OpenAIRE Guidelines for Literature Repositories
    field_source
    field_subject
    field_licensecondition
-   field_embargoenddate
    field_datasetreference
    field_publicationversion
    field_relation

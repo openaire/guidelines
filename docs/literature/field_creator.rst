@@ -1,6 +1,6 @@
 .. _dci:creator:
 
-2. creator (M)
+2. Creator (M)
 ==============
 
 The authors of the publication in priority order. May be a corporate/institutional or personal name.
