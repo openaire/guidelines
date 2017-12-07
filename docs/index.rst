@@ -25,7 +25,7 @@ The guidelines specifically provide guidance on how to specify:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Guidelines Drafts
+   :caption: New Guidelines Drafts
 
    literature_v4/index
    software/index
