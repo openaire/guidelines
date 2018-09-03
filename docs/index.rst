@@ -29,7 +29,7 @@ The guidelines specifically provide guidance on how to specify:
 
    literature_v4/index
    software/index
-   cris_v1_1/index
+   orp/index
 
 Moving forward towards Open Science these guidelines are drafted for consultation and community feedback.
 
