@@ -64,7 +64,7 @@ Acknowledgements & Contributors
 
 Versions
 ^^^^^^^^
-* 3.0, April 2013
+* 3.0, April 2013 `doi:10.5281/zenodo.1487968 <http://dx.doi.org/10.5281/zenodo.1487968>`_
 
 * 3.0, beta December 2012
 
