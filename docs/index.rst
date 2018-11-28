@@ -45,7 +45,7 @@ You are invited to participate by commenting or editing the content. See our gui
 
 OpenAIRE Validator
 ------------------
-The OpenAIRE Validator service http://validator.openaire.eu allows to test your repository's compatibility with the OpenAIRE Guidelines.
+The `OpenAIRE Validator service <https://www.openaire.eu/validator-registration-guide>`_ is integrated in the `Content Provider Dashboard <https://provide.openaire.eu/>`_ and allows to test your repository's compatibility with the OpenAIRE Guidelines.
 
 If validation succeeds the data source can be registered for regular aggregation and indexing in OpenAIRE.
 OpenAIRE allows for registration of institutional and thematic repositories registered in OpenDOAR, research data repositories registered in re3data, individual e-Journals, CRIS, aggregators and publishers.
