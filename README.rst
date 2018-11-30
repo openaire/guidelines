@@ -4,11 +4,13 @@ Welcome to the OpenAIRE Guidelines. The intention of this is to provide a public
 
 Head over to http://guidelines.openaire.eu to read the guidelines.
 
-OpenAIRE Guidelines consists of three guidelines for publication repositories, data archives and CRIS systems respectively:
+OpenAIRE Guidelines consists of guidelines for publication repositories, data archives, CRIS systems, software repositories and repositories of other research products respectively:
 
 - OpenAIRE Guidelines for Literature Repositories
 - OpenAIRE Guidelines for Data Archives
 - OpenAIRE Guidelines for CRIS Managers based on CERIF-XML
+- OpenAIRE Guidelines for Software Repositories (draft)
+- OpenAIRE Guidelines for Repositories of Other Research Products (draft)
 
 Contribution Guidelines
 ~~~~~~~~~~~~~~~~~~~~~~~
