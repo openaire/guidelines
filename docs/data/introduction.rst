@@ -5,10 +5,12 @@ Aim
 ^^^
 OpenAIRE gathers together research output related to European funding streams, with the aim of supporting open science and tracking research impact. This content consists of open access publications and related contextual information such as datasets, supplementary material, and research/project information.
 
-Two other sets of OpenAIRE guidelines exist for repository managers:
+Other sets of OpenAIRE Guidelines that exist for repository managers are:
 
 - :ref:`literature`
-- :ref:`cris`
+- `OpenAIRE Guidelines for CRIS Managers <https://openaire-guidelines-for-cris-managers.readthedocs.io/en/stable/>`_
+- `Draft OpenAIRE Guidelines for Software Repository Managers <http://software-guidelines.readthedocs.io/en/latest/>`_
+- `Draft OpenAIRE Guidelines for Other Research Products <https://guidelines-other-products.readthedocs.io/en/latest/>`_
 
 The OpenAIRE Guidelines for Data Archive Managers 2.0 will provide instruction for data archive managers to expose their metadata in a way that is compatible with the OpenAIRE infrastructure. The metadata from data archives should be included in the OpenAIRE information space, and exposed when data are related to an open access publication e.g. a dataset cited by an article. To access a pdf version the guidelines see here: http://dx.doi.org/10.5281/zenodo.6918
 

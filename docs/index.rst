@@ -7,7 +7,7 @@ OpenAIRE Guidelines
 
 Welcome to the OpenAIRE Guidelines. The intention of this is to provide a public space to share OpenAIREs work on interoperability and to engage with the community. The OpenAIRE Guidelines helps repository managers expose publications, datasets and CRIS metadata via the OAI-PMH protocol in order to integrate with OpenAIRE infrastructure.
 
-OpenAIRE Guidelines have been released for publication repositories, data archives and CRIS systems respectively:
+OpenAIRE Guidelines have been released for publication repositories, data archives, CRIS systems, software repositories and repositories of other research products respectively:
 
 .. toctree::
    :maxdepth: 1
@@ -15,23 +15,15 @@ OpenAIRE Guidelines have been released for publication repositories, data archiv
 
    literature/index
    data/index
-   cris/index
+   OpenAIRE Guidelines for CRIS Managers <https://openaire-guidelines-for-cris-managers.readthedocs.io/en/stable/>
+   Draft OpenAIRE Guidelines for Software Repository Managers <http://software-guidelines.readthedocs.io/en/latest/>
+   Draft OpenAIRE Guidelines for Other Research Products <https://guidelines-other-products.readthedocs.io/en/latest/>
 
 The guidelines specifically provide guidance on how to specify:
 
 - Access right
 - Funding information
-- Related publication and datasets.
-
-.. toctree::
-   :maxdepth: 1
-   :caption: New Guidelines Drafts
-
-   literature_v4/index
-   software/index
-   orp/index
-
-Moving forward towards Open Science these guidelines are drafted for consultation and community feedback.
+- Related publications, datasets, software etc..
 
 Participate
 -----------
