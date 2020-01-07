@@ -8,5 +8,7 @@ Note the most recent version of the `OpenAIRE Guidelines for Literature Reposito
 .. toctree::
    :maxdepth: 1
 
-   Guidelines v4 <https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/>
+   Guidelines v4 
+     English <https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/>
+     Spanish <https://guiasopenaire4.readthedocs.io/es/latest/>
    Guidelines v3 <index_guidelines-lit_v3>
