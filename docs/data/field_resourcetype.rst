@@ -8,7 +8,7 @@ A description of the resource (occurrences: 0-1).
 
 The format is open, but the preferred format is a single term of some detail so that a pair can be formed with the sub-property.
 
-Text formats can be free-text OR terms from the `CASRAI Publications resource type list <http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications>`_.
+Text formats can be free-text OR terms from the `CASRAI Publications resource type list <https://web.archive.org/web/20150221150902/http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications>`_.
 
 Examples:
 
@@ -42,7 +42,7 @@ If ResourceType is used, resourceTypeGeneral is mandatory.
 * Workflow
 * Other
 
-Combine “Text” with free-text or terms from the CASRAI Publications resource type list found `here <http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications>`_.
+Combine “Text” with free-text or terms from the CASRAI Publications resource type list found `here <https://web.archive.org/web/20150221150902/http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications>`_.
 
 Example
 ~~~~~~~
