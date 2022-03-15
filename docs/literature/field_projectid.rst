@@ -24,6 +24,19 @@ OpenAIRE Guidelines v1
 Example
 ~~~~~~~
 
+An example that utilises all six fields and covers an example of the ''Horizon Europe'' funding programme:
+
+.. code-block:: xml
+   :linenos:
+
+   <dc:relation>
+     info:eu-repo/grantAgreement/EC/HE/123456789/EU/Making Capabilities Work/WorkAble
+   </dc:relation>
+
+.. note::
+  ProjectId, Jurisdiction, ProjectName, and ProjectAcronym are only examples and doesn't exists.
+
+
 An example utilizing all six fields:
 
 .. code-block:: xml
