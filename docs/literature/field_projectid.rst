@@ -24,7 +24,7 @@ OpenAIRE Guidelines v1
 Example
 ~~~~~~~
 
-An example that utilises all six fields and covers an example of the ''Horizon Europe'' funding programme:
+An example that uses all six areas and covers an example of the funding programme ''Horizon Europe'', as label-term **HE**:
 
 .. code-block:: xml
    :linenos:
