@@ -15,7 +15,7 @@ OpenAIRE Guidelines have been released for publication repositories, data archiv
 
    literature/index
    data/index
-   cris/index
+   OpenAIRE Guidelines for CRIS Managers <https://openaire-guidelines-for-cris-managers.readthedocs.io/en/v1.2.0/>
    Draft OpenAIRE Guidelines for Software Repository Managers <http://software-guidelines.readthedocs.io/en/latest/>
    Draft OpenAIRE Guidelines for Other Research Products <https://guidelines-other-products.readthedocs.io/en/latest/>
 
