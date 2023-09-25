@@ -3,7 +3,7 @@
 OpenAIRE Guidelines for CRIS Managers
 =====================================
 
-Note the most recent version of the `OpenAIRE Guidelines for CRIS Managers is v1.1.1 <https://openaire-guidelines-for-cris-managers.readthedocs.io/en/v1.1.1/>`_
+Note the most recent version of the `OpenAIRE Guidelines for CRIS Managers is v1.2.0 <https://openaire-guidelines-for-cris-managers.readthedocs.io/en/v1.2.0/>`_
 
 .. toctree::
    :maxdepth: 1
