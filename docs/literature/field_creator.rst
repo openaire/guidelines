@@ -34,6 +34,12 @@ Generational suffixes (Jr., Sr., etc.) should follow the surname. When in doubt,
 .. code-block:: xml
 
    <dc:creator>Smit Jr., J.H. (John) de</dc:creator>
+   
+ORCID-IDs should be added as a URL, separted from the name by a semicolon. 
+
+.. code-block:: xml
+
+   <dc:creator>Evans, R.J. ; https://orcid.org/1234-1234-1234-1234</dc:creator>
 
 In the case of an organization name which clearly includes an organizational hierarchy, list the parts of the hierarchy from largest to smallest, separated by full stops.
 
@@ -72,6 +78,7 @@ Example
    :linenos:
 
    <dc:creator>Evans, R.J.</dc:creator>
+   <dc:creator>Evans, R.J. ; https://orcid.org/1234-1234-1234-1234</dc:creator>
    <dc:creator>Walker Jnr., John</dc:creator>
    <dc:creator>
      International Human Genome Sequencing Consortium
