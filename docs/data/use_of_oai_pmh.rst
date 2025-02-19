@@ -23,7 +23,7 @@ OpenAIRE ``openaire_data``
 ======== =================
 
 .. note::
-   A harvester only uses the **setSpec** value to perform selective harvesting. The letters of the setSpec must be in small caps.
+   A harvester only uses the **setSpec** value to perform selective harvesting. The letters of the setSpec must be in lowercase.
 
 .. _d:setcontent:
 
