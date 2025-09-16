@@ -57,8 +57,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenAIRE Guidelines'
-copyright = u'2015,2022, OpenAIRE. This work is licensed under Creative Commons Attribution 4.0 International'
+project = 'OpenAIRE Guidelines'
+copyright = '2015,2022, OpenAIRE. This work is licensed under Creative Commons Attribution 4.0 International'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -241,8 +241,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'openaireguidelines', u'OpenAIRE Guidelines',
-     [u'OpenAIRE'], 1)
+    ('index', 'openaireguidelines', 'OpenAIRE Guidelines',
+     ['OpenAIRE'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -255,8 +255,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'OpenAIREGuidelines', u'OpenAIRE Guidelines',
-   u'OpenAIRE', 'OpenAIREGuidelines', 'One line description of project.',
+  ('index', 'OpenAIREGuidelines', 'OpenAIRE Guidelines',
+   'OpenAIRE', 'OpenAIREGuidelines', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -274,4 +274,7 @@ texinfo_documents = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None}
+# OLD Sphinx < 8: intersphinx_mapping = {'http://docs.python.org/': None}
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None),
+}
