@@ -19,6 +19,26 @@ OpenAIRE Guidelines have been released for publication repositories, data archiv
    Draft OpenAIRE Guidelines for Software Repository Managers <http://software-guidelines.readthedocs.io/en/latest/>
    Draft OpenAIRE Guidelines for Other Research Products <https://guidelines-other-products.readthedocs.io/en/latest/>
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Release history
+   literature/index
+   data/index
+   TBA
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Obsolete Versions
+   literature/index
+   data/index
+   These versions are no longer accepted according with the OpenAIRE acquisition policy:
+   - OpenAIRE Guidelines for Literature Repositories v2.0
+   - OpenAIRE Guidelines for Literature Repositories v1.0
+   - OpenAIRE Guidelines for Software Repository Managers <http://software-guidelines.readthedocs.io/en/latest/> (DRAFT)
+   - OpenAIRE Guidelines for Other Research Products <https://guidelines-other-products.readthedocs.io/en/latest/> (DRAFT)
+   - Driver guidelines 
+
+
 The guidelines specifically provide guidance on how to specify:
 
 - Access right
