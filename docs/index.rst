@@ -16,8 +16,10 @@ OpenAIRE Guidelines have been released for publication repositories, data archiv
    literature/index
    data/index
    OpenAIRE Guidelines for CRIS Managers <https://openaire-guidelines-for-cris-managers.readthedocs.io/en/v1.2.0/>
-   Deprecated OpenAIRE Guidelines for Software Repository Managers <http://software-guidelines.readthedocs.io/en/latest/>
-   Deprecated OpenAIRE Guidelines for Other Research Products <https://guidelines-other-products.readthedocs.io/en/latest/>
+   Deprecated OpenAIRE Guidelines for Software Repository Managers 
+#<http://software-guidelines.readthedocs.io/en/latest/>
+   Deprecated OpenAIRE Guidelines for Other Research Products 
+#<https://guidelines-other-products.readthedocs.io/en/latest/>
 
 .. toctree::
    :maxdepth: 1
@@ -34,8 +36,8 @@ OpenAIRE Guidelines have been released for publication repositories, data archiv
    These versions are no longer accepted according with the OpenAIRE acquisition policy:
    - OpenAIRE Guidelines for Literature Repositories v2.0
    - OpenAIRE Guidelines for Literature Repositories v1.0
-   - OpenAIRE Guidelines for Software Repository Managers <http://software-guidelines.readthedocs.io/en/latest/> (Deprecated)
-   - OpenAIRE Guidelines for Other Research Products <https://guidelines-other-products.readthedocs.io/en/latest/> (Deprecated)
+   - OpenAIRE Guidelines for Software Repository Managers (Deprecated)
+   - OpenAIRE Guidelines for Other Research Products (Deprecated)
    - Driver guidelines 
 
 
