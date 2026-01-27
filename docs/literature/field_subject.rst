@@ -32,7 +32,8 @@ It is recommended to use an URI when using classification schemes or controlled 
    <dc:subject>Anatomy</dc:subject>
 
 
-If no specific classification scheme is use we recommend the Dewey Decimal Classification Decimal Classification (DDC). The first 1000 terms is called the Dewey Decimal Classification Summary and can be downloaded at http://www.oclc.org/dewey/resources/summaries/ if one agrees with the following terms and conditions: http://www.oclc.org/research/researchworks/ddc/terms.htm
+If no specific classification scheme is used we recommend the Dewey Decimal Classification (DDC). 
+More information about the DDC and the DDC Summaries can be found at https://www.oclc.org/en/dewey/resources.html . Please note that OCLC owns all copyright rights in the Dewey Decimal Classification system. Dewey, Dewey Decimal Classification, DDC, OCLC and WebDewey are registered trademarks of OCLC.
 
 Do Not Confuse With
 ~~~~~~~~~~~~~~~~~~~

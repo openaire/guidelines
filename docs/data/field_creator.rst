@@ -6,7 +6,7 @@ The main researchers involved in producing the data, or the authors of the publi
 
 **Allowed values, examples, other constraints**
 
-May be a corporate/institutional or personal name. Note: DataCite infrastructure supports up to between 8000‐10000 names. For name lists above that size, consider attribution via linking to the related metadata.
+May be a corporate/institutional or personal name. Note: DataCite infrastructure supports up to between 8000 - 10000 names. For name lists above that size, consider attribution via linking to the related metadata.
 
 .. _d:creatorname:
 
@@ -18,7 +18,7 @@ The name of the creator (occurrences: 1).
 
 Examples: Smith, John; Miller, Elizabeth
 
-The personal name format should be: family, given. Non‐roman names may be transliterated according to the `ALA‐LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemes.
+The personal name format should be: family, given. Non-roman names may be transliterated according to the `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemes.
 
 .. _d:creator_nameidentifier:
 

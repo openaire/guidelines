@@ -6,7 +6,7 @@ This documentation uses the following namespace abbreviation:
 * ``dc``: http://purl.org/dc/elements/1.1/
 
 ======================================== ============== =========================================
-OpenAIRE-Field                           OAI-DC Element Refinement by vocabulary
+OpenAIRE-Field                           OAI-DC Element Refinement by Vocabulary
 ======================================== ============== =========================================
 :ref:`dc:title`                          dc:title
 :ref:`dc:creator`                        dc:creator
@@ -32,5 +32,3 @@ OpenAIRE-Field                           OAI-DC Element Refinement by vocabulary
 :ref:`dc:coverage`                       dc:coverage
 :ref:`dc:audience`                       dc:audience
 ======================================== ============== =========================================
-
-

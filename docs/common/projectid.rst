@@ -1,4 +1,4 @@
-An authoritative `list of projects <http://api.openaire.eu/oai_pmh?verb=ListRecords&set=projects&metadataPrefix=oaf>`_ is exposed by OpenAIRE through OAI-PMH, and available for all repository managers. Values include the project name and project ID. The projectID equals the Grant Agreement identifier, and is defined by the `info:eu-repo namespace <http://purl.org/eu-repo/semantics/#info-eu-repo-GrantAgreementIdentifiers>`_ term grantAgreement.
+An authoritative `list of projects <https://api.openaire.eu/search/projects>`_ is exposed by the OpenAIRE API, and available for all repository managers. Values include the project name and project ID. The projectID equals the Grant Agreement identifier, and is defined by the `info:eu-repo namespace <http://purl.org/eu-repo/semantics/#info-eu-repo-GrantAgreementIdentifiers>`_ term grantAgreement.
 
 The syntax is::
 
@@ -8,7 +8,7 @@ The syntax is::
 where:
 
 * ``Funder`` refers to the funding organization (e.g., ``EC`` for European Commission, ``WT`` for Wellcome Trust)
-* ``FundingProgramme`` refers to a specific programme (e.g., ``FP7``)
+* ``FundingProgramme`` refers to a specific programme (e.g., ``FP7`` for Framework Programme Seven, ``H2020`` for Horizon 2020, ``HE`` for Horizon Europe )
 * ``ProjectID`` refers to a unique identifier in the scope of the funder (and maybe the programme), e.g. a grant agreement number.
 * ``Jurisdiction`` refers to the authority granted to a formally constituted legal body (e.g. ``EU`` for European Union)
 * ``ProjectName`` contains the full name of the project

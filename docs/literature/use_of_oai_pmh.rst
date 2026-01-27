@@ -60,3 +60,6 @@ In accordance with the `OAI-PMH guidelines <http://www.openarchives.org/OAI/2.0/
       </provenance>
     </about>
 
+.. note::
+   It is recommended to consider the section `Compatibility of Aggregators <https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/latest/use_of_oai_pmh.html#compatibility-of-aggregators>`_
+   under `OpenAIRE Guidelines for Institutional and Thematic Repository Managers v4 <https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/latest/>`_ as well.

@@ -1,8 +1,16 @@
 OpenAIRE Guidelines
 ===================
-Welcome. The intention of this GitHub repository is to provide a public space to share OpenAIREs work on interoperability and to engage with the community.
+Welcome to the OpenAIRE Guidelines. The intention of this is to provide a public space to share OpenAIREs work on interoperability and to engage with the community. The OpenAIRE Guidelines helps repository managers expose publications, datasets and CRIS metadata via the OAI-PMH protocol in order to integrate with OpenAIRE infrastructure.
 
 Head over to http://guidelines.openaire.eu to read the guidelines.
+
+OpenAIRE Guidelines consists of guidelines for publication repositories, data archives, CRIS systems, software repositories and repositories of other research products respectively:
+
+- OpenAIRE Guidelines for Literature, institutional, and thematic Repositories
+- OpenAIRE Guidelines for Data Archives
+- OpenAIRE Guidelines for CRIS Managers based on CERIF-XML
+- OpenAIRE Guidelines for Software Repositories (Deprecated)
+- OpenAIRE Guidelines for Repositories of Other Research Products (Deprecated)
 
 Contribution Guidelines
 ~~~~~~~~~~~~~~~~~~~~~~~

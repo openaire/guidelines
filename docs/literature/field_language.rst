@@ -20,7 +20,7 @@ Usage Instruction
 ~~~~~~~~~~~~~~~~~
 A specific resource (an instance of scientific output) is either written in one human language or more. In these cases all used languages are used in the DC element ``language``. If a specific resource (an instance of scientific output) is written in one human language and is translated into other human languages, each translation does have its own record..
 
-Recommended: ISO 639-x, where x can be 1,2 or 3. Best Practice: we use ISO 639-3 and by doing so we follow: http://www.sil.org/ISO639-3/codes.asp
+Recommended: ISO 639-x, where x can be 1,2 or 3. Best Practice: we use ISO 639-3 and by doing so we follow: http://www.sil.org/iso639-3/
 
 If necessary, repeat this element to indicate multiple languages.
 

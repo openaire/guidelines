@@ -1,43 +1,15 @@
 .. _literature:
 
-OpenAIRE Guidelines for Literature Repositories
-===============================================
+OpenAIRE Guidelines for Literature, institutional, and thematic Repositories
+============================================================================
+
+Note the most recent version of the `OpenAIRE Guidelines for institutional and thematic Repository Managers is v4 <https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/>`_ (aka ''OpenAIRE Guidelines for Literature Managers v4'')
 
 .. toctree::
    :maxdepth: 1
 
-   introduction
-   use_of_oai_pmh
-   use_of_oai_dc
-   application_profile
+   Draft:    Guidelines v4.1-rc English <https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/latest/>
 
-
-**Application Profile:**
-
-.. toctree::
-   :maxdepth: 1
-   :numbered:
-
-   field_title
-   field_creator
-   field_projectid
-   field_accesslevel
-   field_licensecondition
-   field_embargoenddate
-   field_alternativeidentifier
-   field_publicationreference
-   field_datasetreference
-   field_subject
-   field_description
-   field_publisher
-   field_contributor
-   field_publicationdate
-   field_publicationtype
-   field_publicationversion
-   field_format
-   field_resourceidentifier
-   field_source
-   field_language
-   field_relation
-   field_coverage
-   field_audience
+   Guidelines v4.0 English <https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/>
+   Guidelines v4 Translation: Spanish <https://guiasopenaire4.readthedocs.io/es/latest/>
+   Guidelines v3 <index_guidelines-lit_v3>

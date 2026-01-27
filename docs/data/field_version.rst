@@ -12,7 +12,7 @@ Register a new identifier for a major version change. Individual stewards need t
 
 May be used in conjunction with properties :ref:`d:alternateidentifier` and :ref:`d:relatedidentifier` to indicate various information updates.
 
-May be used in conjunction with property :ref:`d:description` to indicate the nature and￼file/record range of version.
+May be used in conjunction with property :ref:`d:description` to indicate the nature and file/record range of version.
 
 Example
 ~~~~~~~
