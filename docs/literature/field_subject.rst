@@ -1,18 +1,11 @@
 .. _dc:subject:
 
-Subject (MA)
-^^^^^^^^^^^^
+17. Subject (MA)
+================
 
-DC Field
-~~~~~~~~
-``dc:subject``
 
-Usage
-~~~~~
-*Mandatory when applicable (MA)*
+**Usage Instruction**
 
-Usage Instruction
-~~~~~~~~~~~~~~~~~
 In the DC subject element two kinds of values are possible: encode either a keyword or a classification. When both are available use separate occurrences of this element.
 
 Use the first occurrence of the DC element ``subject`` for a human readable keyword.
@@ -35,17 +28,16 @@ It is recommended to use an URI when using classification schemes or controlled 
 If no specific classification scheme is used we recommend the Dewey Decimal Classification (DDC). 
 More information about the DDC and the DDC Summaries can be found at https://www.oclc.org/en/dewey/resources.html . Please note that OCLC owns all copyright rights in the Dewey Decimal Classification system. Dewey, Dewey Decimal Classification, DDC, OCLC and WebDewey are registered trademarks of OCLC.
 
-Do Not Confuse With
-~~~~~~~~~~~~~~~~~~~
+**Do Not Confuse With**
 
 * :ref:`dc:type`
 
-Since
-~~~~~
+**Since**
+
 DRIVER Guidelines v2
 
-Example
-~~~~~~~
+**Example**
+
 .. code-block:: xml
    :linenos:
 

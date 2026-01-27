@@ -1,18 +1,16 @@
-.. _dc:relation_alternativeidentfier:
+.. _dci:alternativeidentfier:
 
-Alternative Identifier (R)
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+5. AlternateIdentifier (R)
+==========================
 
-DC Field
-~~~~~~~~
-``dc:relation``
+An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers. AlternateIdentifier should be used for another identifier of the same instance (same location, same file).
 
-Usage
-~~~~~
-*Recommended*
+5.1 alternateIdentifierType (O)
+-------------------------------
 
-Usage Instruction
-~~~~~~~~~~~~~~~~~
+
+**Usage Instruction**
+
 List alternative identifiers for this publication that are not the primary identifier (repository splash page), e.g., the DOI of publisher’s version, the PubMed/arXiv ID. The term is defined by ``info:eu-repo/semantics/altIdentifier/<scheme>/<identifier>`` where ``<scheme>`` must be one of the following:
 
 * ``ark`` – Archival Resource Key
@@ -27,12 +25,12 @@ List alternative identifiers for this publication that are not the primary ident
 * ``urn`` – Uniform Resource Name
 * ``wos`` – Web of Science accession number
 
-Since
-~~~~~
+**Since**
+
 OpenAIRE Guidelines v3
 
-Example
-~~~~~~~
+**Example**
+
 .. code-block:: xml
    :linenos:
 

@@ -1,18 +1,28 @@
-.. _dc:relation_publicationreference:
+.. _dci:relatedIdentifier:
 
-Publication Reference (R)
-^^^^^^^^^^^^^^^^^^^^^^^^^
+6. RelatedIdentifier (MA)
+=========================
 
-DC Field
-~~~~~~~~
-``dc:relation``
+6.1 relatedIdentifier (M)
+-------------------------
 
-Usage
-~~~~~
-*Recommended*
+6.1.1 relatedIdentifierType (M)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Usage Instruction
-~~~~~~~~~~~~~~~~~
+6.1.2 relationType (M)
+^^^^^^^^^^^^^^^^^^^^^^
+
+6.1.3 relatedMetadataScheme (O)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+6.1.4 schemeURI (O)
+^^^^^^^^^^^^^^^^^^^
+
+6.1.5 schemeType (O)
+^^^^^^^^^^^^^^^^^^^^
+
+**Usage Instruction**
+
 Encode links to publications referenced by this publication. The syntax is: ``info:eu-repo/semantics/reference/<scheme>/<identifier>`` where ``<scheme>`` must be one of the following:
 
 * ``ark`` – Archival Resource Key
@@ -27,12 +37,12 @@ Encode links to publications referenced by this publication. The syntax is: ``in
 * ``urn`` – Uniform Resource Name
 * ``wos`` – Web of Science accession number
 
-Since
-~~~~~
+**Since**
+
 OpenAIRE Guidelines v3
 
-Example
-~~~~~~~
+**Example**
+
 .. code-block:: xml
    :linenos:
 

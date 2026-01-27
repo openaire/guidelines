@@ -45,6 +45,17 @@ The guidelines specifically provide guidance on how to specify:
 - Funding information
 - Related publications, datasets, software etc..
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Guidelines Drafts
+
+   literature_v4/index
+   software/index
+   orp/index
+
+Moving forward towards Open Science these guidelines are drafted for consultation and community feedback.
+   
 Participate
 -----------
 You are invited to participate by commenting or editing the content. See our guide for how to get started:
