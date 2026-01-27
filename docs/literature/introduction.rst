@@ -35,8 +35,12 @@ for Data Archive Managers  and the OpenAIRE CERIF-XML profile.
 
 What's new
 ^^^^^^^^^^
-In comparison with previous versions of the Guidelines, this 4.0 version introduces
-the following major changes:
+In comparison to version 3.0 of this guideline, the minor version 3.0.1 introduces the following:
+
+* the "`Horizon Europe <https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en>`_" funding programme from the `European Commission <https://ec.europa.eu/>`_
+
+In comparison with previous versions of the Guidelines, this 3.0 version introduces
+three main changes:
 
 * The OpenAIRE OAI set has been renamed from ``ec_fundedresources`` to ``openaire``.
 * New elements for indicating alternative identifiers, relations to other publications (references), and relations to research datasets have been defined.
@@ -48,9 +52,10 @@ Acknowledgements & Contributors
 **Editors**
 
 * Mathias Loesch (Bielefeld University, Germany)
-* Eloy Rodrigues (University of Minho, Portugal)
-* Pedro Principe (University of Minho, Portugal)
-* Jochen Schirrwagen (Bielefeld University, Germany)
+* `Eloy Rodrigues <https://orcid.org/0000-0002-7862-2681>`_ (University of Minho, Portugal)
+* `Pedro Principe <https://orcid.org/0000-0002-8588-4196>`_ (University of Minho, Portugal)
+* `Jochen Schirrwagen <https://orcid.org/0000-0002-0458-1004>`_ (Bielefeld University, Germany)
+* `Andreas Czerniak <https://orcid.org/0000-0003-3883-4169>`_ (Bielefeld University, Germany)
 
 **Experts & Reviewers**
 
@@ -64,9 +69,9 @@ Acknowledgements & Contributors
 
 Versions
 ^^^^^^^^
-* 4.0 draft, January 2017
+* 3.0.1, March 2022
 
-* 3.0, April 2013
+* 3.0, April 2013 `doi:10.5281/zenodo.1487968 <http://dx.doi.org/10.5281/zenodo.1487968>`_
 
 * 3.0, beta December 2012
 

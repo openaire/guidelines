@@ -7,21 +7,43 @@ OpenAIRE Guidelines
 
 Welcome to the OpenAIRE Guidelines. The intention of this is to provide a public space to share OpenAIREs work on interoperability and to engage with the community. The OpenAIRE Guidelines helps repository managers expose publications, datasets and CRIS metadata via the OAI-PMH protocol in order to integrate with OpenAIRE infrastructure.
 
-OpenAIRE Guidelines have been released for publication repositories, data archives and CRIS systems respectively:
+OpenAIRE Guidelines have been released for publication repositories, data archives, CRIS systems, software repositories and repositories of other research products respectively:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Current Guidelines 
+   :caption: Current Guidelines
 
    literature/index
    data/index
-   cris/index
+   OpenAIRE Guidelines for CRIS Managers <https://openaire-guidelines-for-cris-managers.readthedocs.io/en/v1.2.0/>
+   Deprecated OpenAIRE Guidelines for Software Repository Managers <http://software-guidelines.readthedocs.io/en/latest/>
+   Deprecated OpenAIRE Guidelines for Other Research Products <https://guidelines-other-products.readthedocs.io/en/latest/>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Release history
+   literature/index
+   data/index
+   TBA
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Obsolete Versions
+   literature/index
+   data/index
+   These versions are no longer accepted according with the OpenAIRE acquisition policy:
+   - OpenAIRE Guidelines for Literature Repositories v2.0
+   - OpenAIRE Guidelines for Literature Repositories v1.0
+   - OpenAIRE Guidelines for Software Repository Managers <http://software-guidelines.readthedocs.io/en/latest/> (Deprecated)
+   - OpenAIRE Guidelines for Other Research Products <https://guidelines-other-products.readthedocs.io/en/latest/> (Deprecated)
+   - Driver guidelines 
+
 
 The guidelines specifically provide guidance on how to specify:
 
 - Access right
 - Funding information
-- Related publication and datasets.
+- Related publications, datasets, software etc..
 
 
 .. toctree::
@@ -46,7 +68,7 @@ You are invited to participate by commenting or editing the content. See our gui
 
 OpenAIRE Validator
 ------------------
-The OpenAIRE Validator service http://validator.openaire.eu allows to test your repository's compatibility with the OpenAIRE Guidelines.
+The `OpenAIRE Validator service <https://www.openaire.eu/validator-registration-guide>`_ is integrated in the `Content Provider Dashboard <https://provide.openaire.eu/>`_ and allows to test your repository's compatibility with the OpenAIRE Guidelines.
 
 If validation succeeds the data source can be registered for regular aggregation and indexing in OpenAIRE.
 OpenAIRE allows for registration of institutional and thematic repositories registered in OpenDOAR, research data repositories registered in re3data, individual e-Journals, CRIS, aggregators and publishers.

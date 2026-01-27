@@ -8,9 +8,8 @@ This documentation uses the following namespace abbreviation:
 * ``rdf`` : http://www.w3.org/1999/02/22-rdf-syntax-ns#
 * ``aire``: http://openaire.eu/schema/v4
 
-======================================== ============================ =========================================
 OpenAIRE-Field                           OAI-DC Element               Refinement by vocabulary
-======================================== ============================ =========================================
+OpenAIRE-Field                           OAI-DC Element Refinement by Vocabulary
 :ref:`dc:title`                          dc:title
 :ref:`dci:creator`                       datacitec:creator
 :ref:`dci:contributor`                   datacite:contributor         DataCite contributor type
@@ -34,6 +33,5 @@ OpenAIRE-Field                           OAI-DC Element               Refinement
 :ref:`dc:relation`                       dc:relation
 :ref:`dc:coverage`                       dc:coverage
 :ref:`dc:audience`                       dc:audience
-======================================== ============================ =========================================
 
 
