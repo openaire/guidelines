@@ -17,7 +17,7 @@ Usage Instruction
 Use terms from the `COAR Access Right Vocabulary`_ <https://vocabularies.coar-repositories.org/access_rights/>`_ . The values are:
 
 ======================================== ========================
-conceptURI                               label
+values                                   label
 ======================================== ========================
 http://purl.org/coar/access_right/c_abf2 ``open access``
 http://purl.org/coar/access_right/c_f1cf ``embargoed access``
