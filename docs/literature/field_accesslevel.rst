@@ -14,16 +14,20 @@ Usage
 Usage Instruction
 ~~~~~~~~~~~~~~~~~
 
-Use terms from the `info:eu-repo-Access-Terms vocabulary <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_ . The values are:
+Use terms from the `COAR Access Right Vocabulary`_ <https://vocabularies.coar-repositories.org/access_rights/>`_ . The values are:
 
-* ``info:eu-repo/semantics/closedAccess``
-* ``info:eu-repo/semantics/embargoedAccess``
-* ``info:eu-repo/semantics/restrictedAccess``
-* ``info:eu-repo/semantics/openAccess``
+======================================== ========================
+conceptURI                               label
+======================================== ========================
+http://purl.org/coar/access_right/c_abf2 ``open access``
+http://purl.org/coar/access_right/c_f1cf ``embargoed access``
+http://purl.org/coar/access_right/c_16ec ``restricted access``
+http://purl.org/coar/access_right/c_14cb ``metadata only access``
+======================================== ========================
 
 Example
 ~~~~~~~
 .. code-block:: xml
    :linenos:
 
-   <dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+   <dc:rights>http://purl.org/coar/access_right/c_abf2</dc:rights>
