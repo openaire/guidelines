@@ -11,7 +11,7 @@ Usage
 ~~~~~
 Publication type is used for the following purposes:
 
-* **Mandatory (M)**: Publication type (controlled): to indicate the type of publication based on the `COAR Access Right Vocabulary`_ <https://vocabularies.coar-repositories.org/access_rights/>`_ vocabulary.
+* **Mandatory (M)**: Publication type (controlled): to indicate the type of publication based on the `COAR Resource Type Vocabulary`_ <https://vocabularies.coar-repositories.org/documentation/resource_types/>`_ vocabulary.
 
 DCMI Definition
 ~~~~~~~~~~~~~~~
@@ -21,7 +21,7 @@ Usage Instruction
 ~~~~~~~~~~~~~~~~~
 **Publication types (controlled):**
 
-The occurrence of the DC Element ``type`` is mandatory and should be used for the type indication of the scientific output based on the `COAR Access Right Vocabulary`_ <https://vocabularies.coar-repositories.org/access_rights/>`_ vocabulary:
+The occurrence of the DC Element ``type`` is mandatory and should be used for the type indication of the scientific output based on the `COAR Resource Type Vocabulary`_ <https://vocabularies.coar-repositories.org/documentation/resource_types/>`_ vocabulary:
 
 ============================================= ========================================
 values                                        label
